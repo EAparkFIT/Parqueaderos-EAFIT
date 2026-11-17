@@ -1,0 +1,1560 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#00458f" />
+    <title>EAFIT · Parqueaderos · Bienvenida</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+        <!-- Hotjar Tracking Code for Parqueaderos EAFIT 2026-2 -->
+    <script>
+    (function(h,o,t,j,a,r){
+    h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)}; h._hjSettings={hjid:6847287,hjsv:6}; a=o.getElementsByTagName('head')[0]; r=o.createElement('script');r.async=1; r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv; a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+    <!-- Maze Universal Snippet -->
+    <script>
+    (function (m, a, z, e) {
+    var s, t, u, v; try {
+    t = m.sessionStorage.getItem('maze-us');
+    } catch (err) {}
+    if (!t) {
+    t = new Date().getTime(); try {
+    m.sessionStorage.setItem('maze-us', t);
+    } catch (err) {}
+    }
+    u = document.currentScript || (function () {
+    var w = document.getElementsByTagName('script');
+    return w[w.length - 1];
+    })();
+    v = u && u.nonce;
+    s = a.createElement('script');
+    s.src = z +'?apiKey=' + e; s.async = true;
+    if (v) s.setAttribute('nonce', v);
+    a.getElementsByTagName('head')[0].appendChild(s);
+    m.mazeUniversalSnippetApiKey = e;
+    })(window, document,'https://snippet.maze.co/maze-universal-loader.js', '56ffa75ca9f7-4348-a7d5-4436974a8a7c');
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#00458f" />
+    <title>EAFIT · Parqueaderos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <style>:root{--green:#00458f;--deep:#00224f;--lime:#8fd3f4;--ink:#0f2742;color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;background:#dbe4f0;color:var(--ink);padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.app-shell{max-width:430px;margin:0 auto;background:#f5f8fc}
+.topbar{display:flex;justify-content:space-between;align-items:center;padding:12px 14px;background:#f5f8fc;position:sticky;top:0;z-index:5}
+.brand{border:0;background:none;font:700 20px Inter,system-ui,sans-serif;color:var(--green);cursor:pointer}
+.brand span,.ticket-brand span{background:var(--green);color:#fff;border-radius:8px;padding:2px 6px;margin-right:2px}
+.icon-button{border:0;background:#e3ecf7;border-radius:50%;cursor:pointer;color:var(--green);font-size:18px}
+.screen{display:none;padding:12px 22px 40px}.screen.active{display:block}
+h1,h2{font-family:Inter,system-ui,sans-serif;color:var(--deep);margin:6px 0 10px}h1{font-size:40px;line-height:1.05}h2{font-size:28px}
+.eyebrow{font-size:11px;letter-spacing:2px;font-weight:700;color:var(--green);margin:18px 0 0}
+.muted,.lead{color:#4a5d78;line-height:1.5}.leaf{font-size:34px;color:var(--green)}
+.role-cards{display:grid;gap:12px;margin:22px 0}
+.role-card{display:flex;align-items:center;gap:14px;text-align:left;border:1px solid #cbd8e8;background:#fff;border-radius:16px;padding:16px;cursor:pointer;color:var(--ink)}
+.role-card.eafit{background:var(--green);color:#fff}
+.role-card span:nth-child(2){flex:1}.role-card b,.role-card small{display:block}
+.card-icon{width:40px;height:40px;border-radius:12px;background:var(--lime);color:var(--deep);display:grid;place-items:center;font-size:18px}
+.primary,.secondary{display:block;width:100%;border-radius:12px;padding:15px;font-weight:700;cursor:pointer;margin-top:14px}
+.primary{background:var(--green);color:#fff;border:0}.secondary{background:#fff;color:var(--green);border:1px solid var(--green)}
+.primary:disabled{opacity:.6}
+label{display:block;font-size:13px;font-weight:700;margin-top:18px}
+input{display:block;width:100%;margin-top:8px;border:1px solid #bccbdf;border-radius:9px;padding:14px 13px;background:#fff;color:var(--ink)}
+.password{position:relative}.password button{position:absolute;right:6px;top:14px;border:0;background:none;cursor:pointer;font-size:18px;color:var(--green)}
+.availability-card{background:var(--deep);color:#fff;border-radius:18px;padding:18px;margin:16px 0;display:grid;gap:6px}
+.availability-card strong{font-size:38px}.availability-card small{font-size:14px;font-weight:400}
+.availability-card button{justify-self:start;border:0;background:var(--lime);border-radius:99px;padding:8px 14px;font-weight:700;cursor:pointer}
+.status-dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--lime)}
+.action-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.action-grid button{border:1px solid #d5deea;background:#fff;border-radius:16px;padding:14px;text-align:left;cursor:pointer;color:var(--ink)}
+.action-grid span{font-size:22px;color:var(--green)}.action-grid b,.action-grid small{display:block}.action-grid small{font-size:12px}
+.map-card{background:#fff;border:1px solid #d5deea;border-radius:16px;padding:12px;margin-top:16px}
+.map-label{font-size:12px;font-weight:700;display:flex;justify-content:space-between}.map-label span{color:var(--green)}
+.roads{position:relative;height:230px;background:#e6eef8;border-radius:12px;margin-top:10px}
+.building{position:absolute;background:#cdd8e8;border-radius:8px;font-size:11px;padding:6px 8px;color:#4a5d78}
+.b1{top:10px;left:45%}.b2{bottom:10px;right:10px}
+.lot{position:absolute;color:#fff;border-radius:10px;padding:8px 10px;width:92px}
+.lot b,.lot small{display:block}.lot small{font-size:11px}
+.lot.p1{top:12px;left:10px}.lot.p2{top:100px;left:10px}.lot.p3{bottom:12px;left:45%}
+.legend{display:flex;gap:14px;font-size:12px;margin:12px 0}.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px}
+.green{background:var(--green)}.yellow{background:#a87414}.gray{background:#5b6b82}
+.list-row,.payment-card,.special-list span{display:flex;gap:10px;align-items:center;background:#fff;border:1px solid #d5deea;border-radius:14px;padding:13px;margin-top:10px}
+.list-row b{flex:1}.list-row button{border:0;background:none;color:var(--green);font-weight:700;cursor:pointer}
+.payment-card{flex-direction:column;align-items:flex-start;gap:2px}.payment-card b{font-size:26px;color:var(--deep)}.payment-card small,.payment-card span{font-size:12px}
+.special-list{margin-top:14px}.special-list b{margin-left:8px}.special-list small{margin-left:auto}
+.special-map{position:relative;height:150px;background:#e6eef8;border-radius:14px;margin-top:14px;display:flex;justify-content:space-around;align-items:center}
+.special{display:grid;place-items:center;font-size:24px;color:var(--green)}.special small{font-size:11px}
+.totem-map{position:relative;height:150px;background:#e6eef8;border-radius:14px;margin-top:14px}
+.totem-map .path{position:absolute;left:14%;right:16%;top:50%;border-top:3px dashed var(--green)}
+.pin{position:absolute;display:grid;place-items:center;font-weight:700;color:var(--green)}.pin small{font-size:10px;color:#4a5d78}
+.pin.user{left:8%;top:38%}.pin.t1{left:45%;top:15%}.pin.t2{right:6%;top:55%}
+.ticket-card{background:#fff;border:1px solid #cbd8e8;border-radius:16px;padding:18px;margin:18px 0;text-align:center}
+.ticket-brand{font:700 20px Inter,system-ui,sans-serif;color:var(--green)}.ticket-card code{font-weight:700;letter-spacing:2px}
+.ticket-data{display:flex;justify-content:space-around;margin-top:12px;font-size:12px}.ticket-data strong{display:block;font-size:15px}
+.info-links{display:grid;gap:10px;margin-top:16px}.info-links button{display:flex;justify-content:space-between;border:1px solid #d5deea;background:#fff;border-radius:14px;padding:15px;cursor:pointer;font-weight:700;color:var(--ink)}
+article h3{font-size:15px;color:var(--green);margin:18px 0 4px}article p{margin:0;color:#4a5d78;line-height:1.5}
+.helper,.footer-note{font-size:12px;margin-top:16px}
+#toast{position:fixed;left:50%;bottom:25px;transform:translate(-50%,20px);background:var(--deep);color:#fff;padding:12px 18px;border-radius:99px;opacity:0;pointer-events:none;transition:.2s;font-size:13px;max-width:90%;z-index:20}
+#toast.show{opacity:1;transform:translate(-50%,0)}
+
+/* Ajustes sobre styles.css (no se modifica el archivo original).
+   Cuando el equipo lo desee, estas reglas se pueden integrar en styles.css. */
+
+body{font-family:Inter,system-ui,sans-serif}
+button,input,select{font:inherit}                     /* los botones heredan DM Sans */
+.app-shell{min-height:100dvh}
+.screen{min-height:calc(100dvh - 73px)}
+#toast{bottom:calc(25px + env(safe-area-inset-bottom,0px))}
+
+/* Estados de parqueadero: el color depende del cupo, no de la posición */
+.lot.ok{background:var(--green)}
+.lot.low{background:#a87414}
+.lot.full{background:#5b6b82}
+
+/* Contraste (WCAG AA) en textos secundarios */
+.footer-note,.helper,.action-grid small,.payment-card small,.special-list small,.list-row span{color:#56677f}
+
+/* Áreas táctiles de 44px y foco visible */
+.icon-button{width:44px;height:44px}
+.list-row button{padding:10px 0}
+:focus-visible{outline:3px solid var(--green);outline-offset:2px}
+[tabindex="-1"]:focus{outline:none}
+
+@media (prefers-reduced-motion:reduce){
+  .screen{animation:none}
+  *{transition:none!important}
+}
+
+/* ---- Flujo de pago, ticket impreso, sectores y placas ---- */
+[hidden]{display:none!important}
+.section-title{font-size:15px;margin:28px 0 8px;color:var(--green)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}
+.chip{border:1px solid #bccbdf;background:#fff;border-radius:99px;padding:9px 14px;font-size:12px;font-weight:700;color:var(--green);cursor:pointer;min-height:40px}
+.chip[aria-pressed="true"]{background:var(--green);border-color:var(--green);color:#fff}
+.lot.dim{opacity:.3}
+.list-row.dim{opacity:.45}
+
+.qr-box{background:#fff;border:1px solid #d5deea;border-radius:12px;padding:6px;width:min(100%,220px);margin:14px auto}
+.qr-box svg{display:block;width:100%;height:auto}
+.ticket-card .qr-box{border:0}
+.exit-badge{background:var(--lime);color:var(--deep);font-weight:700;text-align:center;border-radius:99px;padding:8px 14px;margin:16px auto 0;width:fit-content;font-size:13px}
+
+.paper-ticket{background:#fff;border:1px solid #cbd8e8;border-radius:14px;padding:20px 18px;margin:20px 0;text-align:left}
+.paper-head{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.paper-head small{color:#56677f;font-size:11px;text-align:right}
+.paper-ticket .ticket-brand{color:var(--green)}
+.paper-ticket .ticket-brand span{background:var(--green);color:#fff}
+.paper-ticket h3{font-size:15px;margin:18px 0 6px;color:var(--deep)}
+.paper-ticket h4{font-size:13px;margin:0;color:var(--green)}
+.paper-ticket ol{margin:0;padding-left:18px;font-size:13px;line-height:1.55;color:#4a5d78}
+.paper-section{border-top:1px dashed #b3c3da;margin-top:18px;padding-top:16px;text-align:center}
+.paper-section code{display:block;color:var(--deep);letter-spacing:2px;font-size:14px;font-weight:700}
+.paper-section .totem-map{margin-top:12px;text-align:left}
+.paper-ticket .fine{font-size:11px;color:#56677f;margin:16px 0 0}
+
+@media print{
+  body{background:#fff;padding:0}
+  .topbar,.primary,.secondary,.text-button,#toast{display:none!important}
+  .app-shell{box-shadow:none;border-radius:0;width:100%}
+  .screen{animation:none;min-height:0}
+}
+.form-screen label.stack,label.stack{display:block;font-size:13px;font-weight:700;margin:18px 0 0}
+label.stack select{display:block;width:100%;margin-top:8px;border:1px solid #bccbdf;border-radius:9px;background:#fff;padding:14px 13px;color:var(--ink);font:15px Inter,sans-serif}
+
+select{display:block;width:100%;margin-top:8px;border:1px solid #bccbdf;border-radius:9px;padding:14px 13px;background:#fff;color:var(--ink)}
+.check{display:flex;gap:10px;align-items:center}.check input{width:auto;margin:0}
+.bank-frame{border:1px solid #cbd8e8;border-radius:14px;background:#fff;padding:16px;margin-top:16px}
+.bank-head{display:flex;justify-content:space-between;align-items:center;background:var(--green);color:#fff;margin:-16px -16px 8px;padding:14px 16px;border-radius:14px 14px 0 0}.bank-head small{opacity:.85}
+
+.brand{font-weight:800;text-transform:uppercase;letter-spacing:1.5px;display:flex;align-items:baseline;gap:6px}
+.brand small{font-size:9px;font-weight:600;letter-spacing:1px;color:#56677f}
+.ticket-brand{font-weight:800;text-transform:uppercase;letter-spacing:1.5px}
+.notice{display:flex;gap:10px;align-items:flex-start;background:#fff6e0;border:1px solid #f0d58a;color:#5c4400;border-radius:14px;padding:12px 14px;margin:14px 0}
+.notice p{margin:0;font-size:13px;line-height:1.45}
+.notice button{display:block;border:0;background:none;color:#5c4400;font-weight:700;padding:6px 0 0;cursor:pointer}
+.action-grid{grid-template-columns:repeat(6,1fr)}
+.action-grid button{grid-column:span 2;min-height:96px;padding:12px 10px}
+.action-grid button:not(.big) small{font-size:10px}
+.action-grid button.big{grid-column:span 3;min-height:139px;padding:15px;background:linear-gradient(160deg,#e6f1fc,#fff);border:2px solid var(--green);box-shadow:0 8px 20px #00458f33}
+.action-grid button.pay{background:linear-gradient(160deg,var(--green),#0a63c4);color:#fff;animation:pulse 1.8s ease-in-out infinite}
+.action-grid button.pay span,.action-grid button.pay small{color:#fff}
+@keyframes pulse{0%,100%{transform:scale(1);box-shadow:0 8px 20px #00458f55}50%{transform:scale(1.04);box-shadow:0 0 0 8px #00458f22,0 12px 28px #00458f66}}
+@media(prefers-reduced-motion:reduce){.action-grid button.pay{animation:none}}
+.campus-map svg{display:block;width:100%;height:auto;border-radius:12px;margin-top:10px}
+.mk{stroke:#fff;stroke-width:2}.mk.ok{fill:var(--green)}.mk.low{fill:#a87414}.mk.full{fill:#5b6b82}
+.mt{font:700 10px Inter,sans-serif;fill:#fff;text-anchor:middle}
+.ml{font:600 8.5px Inter,sans-serif;fill:var(--deep);text-anchor:middle;paint-order:stroke;stroke:#fff;stroke-width:2.5px}
+.al{font:italic 600 7.5px Inter,sans-serif;fill:#6b7f9c;text-anchor:middle;letter-spacing:.5px}
+.gate rect{fill:#fff;stroke:var(--green);stroke-width:1.5}.gate text{font:700 8px Inter,sans-serif;fill:var(--green);text-anchor:middle}
+.totem-pin{fill:#f08a24;stroke:#fff;stroke-width:2}.user-pin{fill:var(--green);stroke:#fff;stroke-width:2.5}
+svg .dim{opacity:.3}
+.gate-row div{flex:1}.gate-row small{display:block;color:#56677f;font-size:12px;margin-top:2px;line-height:1.35}
+.profile-banner{background:var(--deep);color:#fff;border-radius:18px;padding:18px;margin:16px 0}
+.profile-banner .who{display:flex;gap:14px;align-items:center}
+.avatar{width:48px;height:48px;border-radius:50%;background:var(--lime);color:var(--deep);display:grid;place-items:center;font-weight:800;font-size:20px}
+.profile-banner b{display:block;font-size:18px}.profile-banner small{opacity:.85}
+.banner-foot{border-top:1px solid #ffffff33;margin-top:14px;padding-top:12px;font-size:13px}
+.payment-card b.small{font-size:16px;word-break:break-all}
+.brand{padding:0;justify-content:center}
+.brand img{display:block;height:46px;width:auto}
+
+/* ---- Barra inferior, modal, espera, rutas ---- */
+.has-bar{padding-bottom:120px}
+.bottom-bar{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(18px + env(safe-area-inset-bottom,0px));width:min(calc(100% - 44px),386px);z-index:6}
+.bottom-bar .primary{margin-top:0;box-shadow:0 8px 20px #00458f40}
+.primary:disabled,.secondary:disabled{opacity:.5;cursor:not-allowed;box-shadow:none}
+.secondary.danger{color:#b3261e;border-color:#b3261e}
+.primary.danger{background:#b3261e}
+button.payment-card{width:100%;text-align:left;font:inherit;color:var(--ink);cursor:pointer;position:relative}
+.plate-pick{padding-right:56px}
+.plate-pick .tick{position:absolute;right:14px;top:50%;transform:translateY(-50%);width:26px;height:26px;border-radius:50%;border:2px solid #bccbdf;display:grid;place-items:center;font-style:normal;font-size:14px;color:transparent;background:#fff}
+.plate-pick.sel{border-color:#b3261e;background:#fdf0ef}
+.plate-pick.sel .tick{background:#b3261e;border-color:#b3261e;color:#fff}
+.modal{position:fixed;inset:0;background:#0f274280;display:grid;place-items:center;padding:24px;z-index:30}
+.modal-box{background:#fff;border-radius:18px;padding:22px;max-width:360px;width:100%;box-shadow:0 20px 50px #00224f55}
+.modal-box h3{margin:0 0 8px;font-size:18px;color:var(--deep)}
+.modal-box p{margin:0;color:#4a5d78;line-height:1.5}
+.modal-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}
+.modal-actions .primary,.modal-actions .secondary{margin-top:0;padding:13px 8px}
+.wait-bar{display:block;width:100%;height:8px;margin-top:8px;appearance:none;-webkit-appearance:none;border:0;border-radius:99px;overflow:hidden;background:#e3ecf7}
+.wait-bar::-webkit-progress-bar{background:#e3ecf7;border-radius:99px}
+.wait-bar::-webkit-progress-value{border-radius:99px;background:var(--green)}
+.wait-bar::-moz-progress-bar{border-radius:99px;background:var(--green)}
+.wait-bar.low::-webkit-progress-value{background:#a87414}
+.wait-bar.low::-moz-progress-bar{background:#a87414}
+.wait-bar.full::-webkit-progress-value{background:#5b6b82}
+.wait-bar.full::-moz-progress-bar{background:#5b6b82}
+.list-row .wait-pill{font-size:12px;font-weight:700;border-radius:99px;padding:5px 10px;color:#fff;white-space:nowrap}
+.wait-pill.ok{background:var(--green)}.wait-pill.low{background:#a87414}.wait-pill.full{background:#5b6b82}
+.wait-note{font-size:12px;margin:0 0 4px}
+.route{fill:none;stroke:var(--green);stroke-width:2.2;stroke-dasharray:6 5;stroke-linecap:round;stroke-linejoin:round;opacity:.45}
+.route.active{stroke-width:3.4;opacity:1;animation:flow 1.2s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-22}}
+.route-sample{stroke:var(--green);stroke-width:2.5;stroke-dasharray:5 4;stroke-linecap:round}
+.legend svg{display:inline-block;vertical-align:middle;margin-right:5px}
+.dot-orange{background:#f08a24}
+.totem-ring{fill:none;stroke:#f08a24;stroke-width:2;opacity:.6}
+.rl{font:700 8.5px Inter,sans-serif;fill:var(--green);text-anchor:middle;paint-order:stroke;stroke:#fff;stroke-width:3px}
+.user-halo{fill:var(--green);opacity:.2;transform-box:fill-box;transform-origin:center;animation:halo 2s ease-out infinite}
+@keyframes halo{0%{transform:scale(.6);opacity:.35}100%{transform:scale(1.7);opacity:0}}
+.user-tag rect{fill:var(--green)}
+.user-tag text{fill:#fff;text-anchor:middle}
+.ut1{font:700 9px Inter,sans-serif}.ut2{font:500 7px Inter,sans-serif}
+.list-row.active-row{border-color:var(--green);box-shadow:0 0 0 2px #00458f22}
+.loc-card{border-color:var(--green);background:#eef6ff}
+.paid-card{border-color:var(--green);background:#eef6ff}
+@media(prefers-reduced-motion:reduce){.route.active,.user-halo{animation:none}}
+.acc{margin:14px 0;background:#fff;border:1px solid #d5e0ee;border-radius:16px}
+.acc summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px;font-size:15px;font-weight:700;color:var(--green);border-radius:16px}
+.acc summary::-webkit-details-marker{display:none}
+.acc summary::after{content:"";flex:none;width:9px;height:9px;border-right:2.5px solid var(--green);border-bottom:2.5px solid var(--green);transform:rotate(45deg);margin-top:-4px;transition:transform .2s}
+.acc[open] summary::after{transform:rotate(-135deg);margin-top:4px}
+.acc summary:focus-visible{outline:3px solid #00458f55;outline-offset:2px}
+.acc-body{padding:0 12px 12px}
+.acc-body .wait-note{margin:0 4px 8px}
+.summary-card,.pre-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.summary-card>div,.pre-grid>div{background:#fff;border:1px solid #d5e0ee;border-radius:14px;padding:12px 6px;text-align:center}
+.summary-card b,.pre-grid b{display:block;font-size:18px;color:var(--green)}
+.summary-card small,.pre-grid small{display:block;font-size:11px;color:#56677f;margin-top:2px}
+.summary-best{margin:8px 2px 0;font-size:13px}
+.prearrival{margin-top:20px;text-align:left}
+.prearrival h3{margin:0 0 8px;font-size:15px;color:var(--green)}
+.prearrival .muted{font-size:13px;margin:8px 2px 0}
+.prearrival .secondary{margin-top:12px}
+.journey{background:#fff;border:1px solid #d5e0ee;border-radius:16px;padding:14px;margin:12px 0}
+.journey ol{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;list-style:none;margin:0;padding:0}
+.journey li{display:flex;flex-direction:column;align-items:center;gap:6px;font-size:11px;font-weight:600;color:#56677f;text-align:center}
+.journey li i{width:26px;height:26px;border-radius:50%;display:grid;place-items:center;font-style:normal;background:#e3ecf7;color:#56677f;font-size:12px}
+.journey li.done i{background:var(--green);color:#fff}
+.journey li.now{color:var(--green)}
+.journey li.now i{background:#fff;border:2px solid var(--green);color:var(--green)}
+.journey p{margin:10px 0 0;font-size:13px;color:#4a5d78;line-height:1.4}
+.steps{display:flex;align-items:center;gap:6px;margin:0 0 8px;font-size:12px;font-weight:600;color:#56677f}
+.steps i{width:22px;height:5px;border-radius:99px;background:#d5e0ee}
+.steps i.on{background:var(--green)}
+.steps span{margin-left:4px}
+.countdown{margin:10px 0;padding:10px 14px;border-radius:12px;background:#eef6ff;color:var(--green);font-weight:700;text-align:center;font-size:14px}
+.countdown.expired{background:#fdf0ef;color:#b3261e}
+.tstatus{display:block;font-weight:700;margin-top:2px}
+.tstatus.ok{color:var(--green)}.tstatus.busy{color:#a87414}.tstatus.down{color:#b3261e}
+.totem-pin.down{fill:#5b6b82}
+.route.down{stroke:#8a98ad;opacity:.3}
+.list-row button:disabled{opacity:.5;cursor:not-allowed}
+@media print{.steps,.countdown{display:none!important}}
+</style>
+    
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar" id="topbar">
+        <button type="button" class="icon-button back" aria-label="Volver" data-action="back">←</button>
+        <button type="button" class="brand" data-action="home" aria-label="Universidad EAFIT, ir al inicio"><img src="data:image/png;base64,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" alt="Universidad EAFIT"></button>
+        <button type="button" class="icon-button" aria-label="Ajustes" data-go="info">⚙</button>
+      </header>
+
+      <!-- ============ BIENVENIDA ============ -->
+      <section id="welcome" class="screen active welcome">
+        <div class="leaf">✦</div>
+        <p class="eyebrow">UNIVERSIDAD EAFIT</p>
+        <h1>Tu lugar empieza aquí.</h1>
+        <p class="lead">Consulta disponibilidad, paga tu estadía y sal sin filas.</p>
+        <div class="role-cards">
+          <button type="button" class="role-card eafit" data-action="role-eafitense">
+            <span class="card-icon">⌂</span><span><b>Soy Eafitense</b><small>Estudiantes y profesores · cuenta institucional</small></span><i>→</i>
+          </button>
+          <button type="button" class="role-card visitor" data-action="role-visitante">
+            <span class="card-icon">⌁</span><span><b>Soy visitante</b><small>Recibe tu ticket y paga con el QR</small></span><i>→</i>
+          </button>
+        </div>
+        <div class="prearrival" id="prearrival">
+          <button type="button" class="secondary" data-go="parking">Ver mapa en vivo →</button>
+        </div>
+        <p class="footer-note">Movilidad más simple, campus más amable.</p>
+      </section>
+
+      <!-- ============ VISITANTES: ingreso y pago ============ -->
+      <section id="visitor-form" class="screen detail">
+        <p class="eyebrow">VISITANTE</p><h2>Recibe tu ticket.</h2>
+        <p class="muted">Al entrar al campus te entregan un ticket impreso. Aquí puedes simular esa entrega.</p>
+        <article>
+          <h3>¿Conoces la universidad?</h3>
+          <p>Escanea el código QR del ticket y paga desde tu celular con PSE, o ve a un tótem.</p>
+          <h3>¿Es tu primera vez?</h3>
+          <p>Usa el mapa del ticket para llegar al tótem más cercano. Paga allí y se imprimirá tu comprobante.</p>
+          <h3>Para salir</h3>
+          <p>Con tu comprobante, sal por la salida asignada.</p>
+        </article>
+        <button type="button" class="primary" data-action="get-visitor-ticket">Recibir ticket de ingreso <span>→</span></button>
+      </section>
+
+      <section id="visitor-ticket" class="screen ticket-screen">
+        <p class="eyebrow">TICKET DE INGRESO</p><h2>Bienvenido al campus.</h2>
+        <div class="notice"><span>🔔</span><p><b>Recuerda pagar el parqueadero</b> antes de salir. Tendrás 15 minutos para salir después de pagar.</p></div>
+        <div class="paper-ticket">
+          <div class="paper-head"><div class="ticket-brand">EAFIT</div><small id="ticket-entry"></small></div>
+          <h3>Instrucciones</h3>
+          <ol>
+            <li>Conserva este ticket: lo necesitas para pagar y salir.</li>
+            <li>Paga antes de salir, en la app o en un tótem.</li>
+            <li>Con tu comprobante, sal por la salida asignada.</li>
+          </ol>
+          <div class="paper-section">
+            <h4>Pago digital en la app</h4>
+            <div class="qr-box" id="visitor-qr"></div>
+            <code id="visitor-code">EAP-00000000</code>
+          </div>
+          <div class="paper-section">
+            <h4>Pago físico en los tótems</h4>
+            <div class="campus-map" data-map="totems"></div>
+          </div>
+          <p class="fine">* Al pagar en el tótem se imprime tu comprobante.</p>
+        </div>
+        <button type="button" class="primary" data-action="go-pay">Pagar ahora <span>→</span></button>
+        <button type="button" class="secondary" data-action="print">Imprimir ticket</button>
+      </section>
+
+      <!-- ============ ESTUDIANTES Y PROFESORES ============ -->
+      <section id="login" class="screen form-screen">
+        <p class="eyebrow">ACCESO EAFITENSE</p><h2>Hola, qué bueno verte.</h2>
+        <p class="muted">Usa tu correo institucional para consultar los servicios del parqueadero.</p>
+        <label>Correo institucional<input id="email" type="email" autocomplete="username" placeholder="nombre@eafit.edu.co" /></label>
+        <label>Contraseña<div class="password"><input id="password" type="password" autocomplete="current-password" placeholder="••••••••" /><button type="button" data-action="toggle-password" aria-label="Mostrar u ocultar contraseña">◉</button></div></label>
+        <button type="button" class="primary" data-action="sign-in">Ingresar a EAPark <span>→</span></button>
+        <p class="helper">Demostración: puedes ingresar con cualquier correo y contraseña.</p>
+      </section>
+
+      <section id="eafit-home" class="screen dashboard">
+        <div class="greeting"><p class="eyebrow" id="greeting-name">HOLA</p><h2>¿A dónde vas hoy?</h2></div>
+        <div class="availability-card"><div><span class="status-dot"></span> Parqueaderos abiertos</div><strong><span id="total-free">—</span> <small>cupos libres</small></strong><button type="button" data-go="parking">Ver mapa →</button></div>
+        <div class="journey" id="journey" role="group" aria-label="Tu recorrido"></div>
+        <div class="notice" id="home-notice" hidden></div>
+        <div class="action-grid">
+          <button type="button" class="big" data-go="parking"><span>⌖</span><b>Parqueaderos</b><small>Mapa y cupos en tiempo real</small></button>
+          <button type="button" class="big pay" data-action="go-pay"><span>$</span><b>Pagar</b><small>Carnet, PSE o tótem</small></button>
+          <button type="button" data-go="plates"><span>◈</span><b>Mis placas</b><small>Registra y valida</small></button>
+          <button type="button" data-go="totems"><span>◉</span><b>Tótems</b><small>Pago rápido</small></button>
+          <button type="button" data-go="special"><span>♿</span><b>Espacios especiales</b><small>En el mapa</small></button>
+        </div>
+      </section>
+
+      <!-- Función 1 · consulta de parqueaderos por sectores -->
+      <section id="parking" class="screen detail">
+        <p class="eyebrow">PARQUEADEROS</p><h2>Disponibilidad en vivo</h2>
+        <p class="muted" id="updated-at">Cargando disponibilidad…</p>
+        <div id="parking-summary"></div>
+        <div class="chips" id="sector-chips"></div>
+        <div class="map-card"><div class="map-label">Campus EAFIT <span>● en vivo</span></div><div class="campus-map" id="parking-map"></div></div>
+        <div class="legend"><span><i class="green"></i>Disponible</span><span><i class="yellow"></i>Pocos cupos</span><span><i class="gray"></i>Ocupado</span><span>▢ Portería</span></div>
+        <details class="acc"><summary>Ingresos al parqueadero</summary><div class="acc-body"><div id="gate-list"></div></div></details>
+        <details class="acc"><summary>Disponibilidad por parqueadero</summary><div class="acc-body"><div id="parking-list"></div></div></details>
+        <details class="acc"><summary>Tiempo de espera estimado</summary><div class="acc-body"><p class="muted wait-note">Simulación: se estima según la ocupación y la fila de ingreso, y cambia en vivo.</p>
+        <div id="wait-list"></div></div></details>
+      </section>
+
+      <!-- Función 2 · pago -->
+      <section id="pay" class="screen detail">
+        <div class="steps" aria-label="Paso 1 de 3"><i class="on"></i><i></i><i></i><span>Paso 1 de 3 · Revisa tu valor</span></div>
+        <p class="eyebrow">PAGO</p><h2>Paga tu estadía.</h2>
+        <div class="notice" id="pay-notice"><span>🔔</span><p><b>Recuerda pagar el parqueadero</b> antes de salir. Tendrás 15 minutos para salir después de pagar.</p></div>
+        <div id="pay-summary"></div>
+        <div id="carnet-card" hidden></div>
+        <button type="button" class="primary" id="receipt-btn" data-action="show-receipt" disabled>Comprobante <span>→</span></button>
+        <p class="helper muted" id="receipt-hint">El comprobante se activa cuando realices un pago exitoso.</p>
+        <div id="pay-methods">
+          <h3 class="section-title">¿Cómo quieres pagar?</h3>
+          <p class="muted wait-note" id="repay-note" hidden>Ya realizaste un pago. Si pagas de nuevo, el nuevo comprobante reemplazará al anterior.</p>
+          <div class="role-cards">
+            <button type="button" class="role-card" id="pay-carnet-opt" data-action="pay-carnet-open"><span class="card-icon">▭</span><span><b>Pago con carnet</b><small>Se descuenta del saldo de tu carnet</small></span><i>→</i></button>
+            <button type="button" class="role-card" data-action="pay-nocarnet-open"><span class="card-icon">$</span><span><b>Pago sin carnet</b><small>PSE desde tu banco o en un tótem</small></span><i>→</i></button>
+          </div>
+        </div>
+      </section>
+
+      <section id="pay-carnet" class="screen detail has-bar">
+        <div class="steps" aria-label="Paso 2 de 3"><i class="on"></i><i class="on"></i><i></i><span>Paso 2 de 3 · Elige y confirma</span></div>
+        <p class="eyebrow">PAGO CON CARNET</p><h2>Paga con tu carnet.</h2>
+        <p class="muted">Se descontará de tu saldo el valor de la estadía.</p>
+        <div id="carnet-pay-summary"></div>
+        <div class="bottom-bar"><button type="button" class="primary" id="carnet-pay-btn" data-action="carnet-pay">Pagar <span>→</span></button></div>
+      </section>
+
+      <section id="pay-nocarnet" class="screen detail">
+        <div class="steps" aria-label="Paso 2 de 3"><i class="on"></i><i class="on"></i><i></i><span>Paso 2 de 3 · Elige y confirma</span></div>
+        <p class="eyebrow">PAGO SIN CARNET</p><h2>Elige cómo pagar.</h2>
+        <div id="nocarnet-summary"></div>
+        <h3 class="section-title">¿Cómo quieres pagar?</h3>
+        <div class="role-cards">
+          <button type="button" class="role-card" data-action="pay-pse"><span class="card-icon">$</span><span><b>Pago digital</b><small>PSE desde tu banco, en la app</small></span><i>→</i></button>
+          <button type="button" class="role-card" data-action="pay-totem"><span class="card-icon">◉</span><span><b>Pago físico</b><small>En cualquiera de los tótems</small></span><i>→</i></button>
+        </div>
+      </section>
+
+      <section id="pse" class="screen detail">
+        <div class="steps" aria-label="Paso 2 de 3"><i class="on"></i><i class="on"></i><i></i><span>Paso 2 de 3 · Elige y confirma</span></div>
+        <p class="eyebrow">PAGO DIGITAL · PASO 1 DE 2</p><h2>Paga con PSE.</h2>
+        <p class="muted">Demostración: así se diligenciará el pago. No ingreses datos bancarios reales.</p>
+        <div id="pse-summary"></div>
+        <div id="pse-linked" hidden><h3 class="section-title">Tus cuentas vinculadas</h3><div class="chips" id="pse-linked-list"></div></div>
+        <label>Banco<select id="pse-bank-sel"><option value="">Selecciona tu banco</option><option>Bancolombia</option><option>Davivienda</option><option>Banco de Bogotá</option><option>BBVA</option><option>Banco de Occidente</option><option>Banco Popular</option><option>Scotiabank Colpatria</option><option>Banco AV Villas</option><option>Itaú</option><option>Nequi</option></select></label>
+        <label>Tipo de persona<select id="pse-person"><option>Natural</option><option>Jurídica</option></select></label>
+        <label>Tipo de documento<select id="pse-doctype"><option>CC</option><option>CE</option><option>NIT</option><option>Pasaporte</option></select></label>
+        <label>Número de documento<input id="pse-doc" inputmode="numeric" placeholder="1234567890" /></label>
+        <label>Correo electrónico<input id="pse-mail" type="email" placeholder="nombre@correo.com" /></label>
+        <div id="pse-link-wrap" hidden>
+          <label>Tipo de cuenta<select id="pse-acct"><option>Ahorros</option><option>Corriente</option></select></label>
+          <label class="check"><input type="checkbox" id="pse-link" /> Vincular esta cuenta para próximos pagos</label>
+        </div>
+        <button type="button" class="primary" data-action="pse-continue">Continuar al banco <span>→</span></button>
+      </section>
+
+      <section id="pse-bank" class="screen detail">
+        <div class="steps" aria-label="Paso 2 de 3"><i class="on"></i><i class="on"></i><i></i><span>Paso 2 de 3 · Elige y confirma</span></div>
+        <p class="eyebrow">PAGO DIGITAL · PASO 2 DE 2</p><h2>Autoriza en tu banco.</h2>
+        <p class="muted">Ejemplo de la redirección a la banca virtual. Aquí el banco pediría tus credenciales reales.</p>
+        <div class="bank-frame">
+          <div class="bank-head"><b id="pse-bank-name">Banco</b><small>🔒 Banca virtual · PSE</small></div>
+          <div id="pse-bank-summary"></div>
+          <label>Usuario<input value="usuario_demo" readonly /></label>
+          <label>Clave<input type="password" value="12345678" readonly /></label>
+          <button type="button" class="primary" data-action="pse-authorize">Autorizar pago <span>→</span></button>
+          <button type="button" class="secondary" data-action="pse-cancel">Cancelar</button>
+        </div>
+      </section>
+
+      <section id="pay-totem" class="screen detail">
+        <div class="steps" aria-label="Paso 2 de 3"><i class="on"></i><i class="on"></i><i></i><span>Paso 2 de 3 · Elige y confirma</span></div>
+        <p class="eyebrow">PAGO FÍSICO</p><h2>Dirígete a un tótem.</h2>
+        <p class="muted">Paga en el tótem más cercano. Al terminar se imprime tu comprobante con el código para la salida.</p>
+        <div class="campus-map" data-map="totems"></div>
+        <h3 class="section-title">Estado de los tótems</h3>
+        <div id="totem-list-pay"></div>
+        <div class="notice"><span>💡</span><p><b>¿Fila o tótem fuera de servicio?</b> Puedes pagar desde esta app, sin ir al tótem.<button type="button" data-action="pay-alt">Pagar desde la app →</button></p></div>
+        <button type="button" class="primary" data-action="confirm-totem">Ya pagué en el tótem <span>→</span></button>
+      </section>
+
+      <section id="receipt" class="screen ticket-screen">
+        <div class="steps" aria-label="Paso 3 de 3"><i class="on"></i><i class="on"></i><i class="on"></i><span>Paso 3 de 3 · Sal del campus</span></div>
+        <p class="eyebrow">COMPROBANTE DE PAGO</p><h2>¡Pago exitoso!</h2><p class="muted">Muestra este código en tu salida asignada.</p>
+        <p class="countdown" id="receipt-countdown" role="timer"></p>
+        <div class="ticket-card">
+          <div class="ticket-brand">EAFIT</div>
+          <div class="exit-badge" id="receipt-exit">Salida —</div>
+          <div class="qr-box" id="receipt-qr"></div>
+          <code id="receipt-code">—</code>
+          <div class="ticket-data"><span>Total<strong id="receipt-amount">—</strong></span><span>Válido hasta<strong id="receipt-until">--:--</strong></span></div>
+          <div class="ticket-data"><span>Método<strong id="receipt-method">—</strong></span><span>Tiempo<strong id="receipt-hours">—</strong></span></div>
+        </div>
+        <button type="button" class="primary" data-action="print">Imprimir comprobante</button>
+        <button type="button" class="secondary" data-action="pay-home">Volver al inicio</button>
+      </section>
+
+      <!-- Función 3 · módulo de placa -->
+      <section id="plates" class="screen form-screen">
+        <p class="eyebrow">MIS PLACAS</p><h2>Registra tu vehículo.</h2>
+        <p class="muted">Ingresa tu placa y valídala con tu correo institucional.</p>
+        <div id="plate-step1">
+          <label>Placa del vehículo<input id="plate-input" maxlength="6" autocapitalize="characters" placeholder="ABC123" /></label>
+          <button type="button" class="primary" data-action="send-plate-code">Enviar código al correo <span>→</span></button>
+        </div>
+        <div id="plate-step2" hidden>
+          <p class="muted" id="plate-sent"></p>
+          <label>Código de validación<input id="plate-code" inputmode="numeric" maxlength="6" placeholder="6 dígitos" /></label>
+          <button type="button" class="primary" data-action="verify-plate">Validar placa <span>→</span></button>
+        </div>
+        <h3 class="section-title">Placas validadas</h3>
+        <div id="plates-list"></div>
+        <button type="button" class="secondary danger" id="delete-plates-btn" data-go="plates-delete" hidden>Eliminar placa registrada</button>
+      </section>
+
+      <section id="plates-delete" class="screen detail has-bar">
+        <p class="eyebrow">MIS PLACAS</p><h2>Eliminar placas.</h2>
+        <p class="muted">Selecciona la o las placas que quieres eliminar de tu cuenta.</p>
+        <div id="plates-delete-list"></div>
+        <div class="bottom-bar"><button type="button" class="primary" id="plates-confirm" data-action="plates-confirm" disabled>Confirmar</button></div>
+      </section>
+
+      <section id="totems" class="screen detail">
+        <p class="eyebrow">TÓTEMS</p><h2>Paga sin filas.</h2><p class="muted">Encuentra el tótem más cercano a tu ubicación.</p>
+        <div class="campus-map" data-map="totems"></div>
+        <div class="legend"><span><i class="green"></i>Tu ubicación</span><span><i class="dot-orange"></i>Tótem</span><span><svg width="22" height="6" aria-hidden="true"><line class="route-sample" x1="1" y1="3" x2="21" y2="3"/></svg>Ruta a pie</span><span>▢ Portería</span></div>
+        <div id="user-location"></div>
+        <div class="notice"><span>💡</span><p><b>¿Fila o tótem fuera de servicio?</b> Puedes pagar desde esta app, sin ir al tótem.<button type="button" data-action="pay-alt">Pagar desde la app →</button></p></div>
+        <h3 class="section-title">Rutas a los tótems</h3>
+        <div id="totem-list"></div>
+        
+      </section>
+
+      <section id="special" class="screen detail">
+        <p class="eyebrow">ESPACIOS ESPECIALES</p><h2>Diseñado para todos.</h2>
+        <p class="muted" id="special-updated">Cargando disponibilidad…</p>
+        <div class="chips" id="special-chips"></div>
+        <div class="map-card"><div class="map-label">Campus EAFIT <span>● en vivo</span></div><div class="campus-map" id="special-map"></div></div>
+        <div class="legend"><span><i class="green"></i>Disponible</span><span><i class="yellow"></i>Pocos cupos</span><span><i class="gray"></i>Ocupado</span><span>▢ Portería</span></div>
+        <details class="acc"><summary>Ingresos a los espacios especiales</summary><div class="acc-body"><div id="special-gate-list"></div></div></details>
+        <details class="acc"><summary>Disponibilidad por zona</summary><div class="acc-body"><div id="special-list"></div></div></details>
+        <details class="acc"><summary>Tiempo de espera estimado</summary><div class="acc-body"><p class="muted wait-note">Simulación: se estima según la ocupación y la fila de ingreso, y cambia en vivo.</p>
+        <div id="special-wait-list"></div></div></details>
+      </section>
+
+      <section id="bank" class="screen detail">
+        <p class="eyebrow">MIS PAGOS</p><h2>Tu estadía y tus pagos.</h2>
+        <h3 class="section-title">Estadía actual</h3><div id="stay-info"></div>
+        <h3 class="section-title">Historial de pagos</h3><div id="payments-list"></div>
+        <h3 class="section-title">Cuentas vinculadas</h3><div id="linked-list"></div>
+      </section>
+
+      <!-- ============ INFORMACIÓN ============ -->
+      <section id="profile" class="screen detail">
+        <p class="eyebrow">MI PERFIL</p><h2>Tu cuenta EAFIT.</h2>
+        <div id="profile-info"></div>
+      </section>
+
+      <section id="recharge" class="screen detail">
+        <p class="eyebrow">CARNET</p><h2>Recargar carnet.</h2>
+        <div id="recharge-balance"></div>
+        <h3 class="section-title">¿Cuánto quieres recargar?</h3>
+        <div class="chips" id="recharge-chips"></div>
+        <p class="muted">Demostración: en producción la recarga se paga con PSE o en un tótem.</p>
+        <button type="button" class="primary" data-action="recharge-confirm">Recargar carnet <span>→</span></button>
+      </section>
+
+      <section id="terms" class="screen detail">
+        <p class="eyebrow">NORMAS DE USO</p><h2>Parquear también es cuidar.</h2>
+        <article><h3>Uso del parqueadero</h3><p>Respeta la señalización, los límites de velocidad y los espacios reservados.</p><h3>Pago y salida</h3><p>Paga antes de salir, por PSE o en los tótems, y sal por la salida asignada en tu comprobante.</p><h3>Protección de datos</h3><p>La información se usa únicamente para gestionar tu ingreso, pago y salida del campus.</p></article>
+      </section>
+
+      <section id="info" class="screen detail">
+        <p class="eyebrow">AJUSTES</p><h2>Tu cuenta y ayuda.</h2>
+        <div id="profile-banner"></div>
+        <div id="account-links" hidden><h3 class="section-title">Mi cuenta</h3>
+          <div class="info-links"><button type="button" data-go="profile">Mi perfil <span>→</span></button><button type="button" data-go="bank">Mis pagos <span>→</span></button><button type="button" data-go="terms">Normas de uso <span>→</span></button><button type="button" data-action="logout">Cerrar sesión <span>→</span></button></div></div>
+        <h3 class="section-title">Información</h3>
+        <div class="info-links"><button type="button" data-go="payment-info">Información de pagos <span>→</span></button><button type="button" data-go="parking">Parqueaderos <span>→</span></button><button type="button" data-go="terms">Términos y condiciones <span>→</span></button></div>
+      </section>
+
+      <section id="payment-info" class="screen detail">
+        <p class="eyebrow">INFORMACIÓN DE PAGOS</p><h2>Paga a tu manera.</h2>
+        <article><h3>PSE</h3><p>Realiza el pago desde tu banco de forma segura y recibe tu comprobante con el código de salida.</p><h3>Pago en tótem</h3><p>Acércate a cualquiera de los tótems disponibles para pagar tu estadía; se imprime tu comprobante.</p><h3>Carnet</h3><p>Si eres Eafitense, paga descontando el valor del saldo de tu carnet. Puedes recargarlo desde la app.</p><h3>Tarifa</h3><p>$5.000 por hora o fracción. Antes de pagar siempre verás el valor exacto.</p></article>
+      </section>
+    </main>
+    <div id="toast" role="status"></div>
+    <div id="confirm-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+      <div class="modal-box">
+        <h3 id="modal-title">¿Eliminar placa?</h3>
+        <p id="modal-text"></p>
+        <div class="modal-actions">
+          <button type="button" class="secondary" id="modal-cancel" data-action="modal-cancel">Cancelar</button>
+          <button type="button" class="primary danger" data-action="plates-delete">Eliminar</button>
+        </div>
+      </div>
+    </div>
+    <script type="module">
+const session = { token: null, email: 'lina@eafit.edu.co', name: 'Lina' };
+const db = {
+  parkings: [
+    { id: 'SUR', name: 'Parqueadero Sur', kind: 'carro', staff: false, gates: ['Portería 3', 'Portería 4'], exit: 'Portería 3', total: 140, occupied: 52 },
+    { id: 'NOR', name: 'Parqueadero Norte', kind: 'carro', staff: false, gates: ['Portería 6'], exit: 'Portería 8', total: 160, occupied: 71 },
+    { id: 'GUA', name: 'Parqueadero Parque Los Guayabos', kind: 'carro', staff: false, gates: ['Portería 6'], exit: 'Portería 8', total: 90, occupied: 18 },
+    { id: 'PRO', name: 'Parqueadero de profesores y empleados', kind: 'carro', staff: true, gates: ['Portería 2'], exit: 'Portería 2', total: 80, occupied: 61 },
+    { id: 'ARG', name: 'Parqueadero Argos', kind: 'carro', staff: true, gates: ['Portería 5'], exit: 'Portería 5', total: 50, occupied: 46 },
+    { id: 'MOT', name: 'Parqueadero de motos', kind: 'moto', staff: false, gates: ['Portería 3', 'Portería 4'], exit: 'Portería 3', total: 120, occupied: 47 },
+  ],
+  special: [
+    { id: 'MO3', name: 'Motos · Portería 3', kind: 'moto', gates: ['Portería 3'], exit: 'Portería 3', total: 60, occupied: 22 },
+    { id: 'MO4', name: 'Motos · Portería 4', kind: 'moto', gates: ['Portería 4'], exit: 'Portería 4', total: 40, occupied: 36 },
+    { id: 'EVS', name: 'Carga eléctrica · Parqueadero Sur', kind: 'charge', gates: ['Portería 3', 'Portería 4'], exit: 'Portería 3', total: 6, occupied: 1 },
+    { id: 'EVP', name: 'Carga eléctrica · Profesores y empleados', kind: 'charge', gates: ['Portería 2'], exit: 'Portería 2', total: 4, occupied: 1 },
+    { id: 'EVN', name: 'Carga eléctrica · Parqueadero Norte', kind: 'charge', gates: ['Portería 6'], exit: 'Portería 8', total: 6, occupied: 6 },
+    { id: 'ACS', name: 'Accesibilidad · Parqueadero Sur', kind: 'access', gates: ['Portería 3', 'Portería 4'], exit: 'Portería 3', total: 10, occupied: 4 },
+    { id: 'ACP', name: 'Accesibilidad · Plazoleta y cafetería', kind: 'access', gates: ['Portería 2', 'Portería 5'], exit: 'Portería 2', total: 8, occupied: 3 },
+    { id: 'ACN', name: 'Accesibilidad · Biblioteca y Norte', kind: 'access', gates: ['Portería 6'], exit: 'Portería 8', total: 6, occupied: 1 },
+  ],
+  carnet: { balance: 35000 },
+  plates: [{ plate: 'LIN123', verifiedAt: Date.now() }],
+  tickets: [{ code: 'EAP-7K3M9QXA', type: 'eafitense', userEmail: 'lina@eafit.edu.co', plate: 'LIN123', status: 'inside', parkingId: 'SUR', enteredAt: Date.now() - 36e5 }],
+  payments: [
+    { id: 'pay_1', ticketCode: null, parkingId: 'SUR', amount: 5000, hours: 1, method: 'PSE', paidAt: Date.now() },
+    { id: 'pay_2', ticketCode: null, parkingId: 'NOR', amount: 10000, hours: 2, method: 'PSE', paidAt: new Date('2026-09-12T15:00:00-05:00').getTime() },
+    { id: 'pay_3', ticketCode: null, parkingId: 'MOT', amount: 20000, hours: 4, method: 'PSE', paidAt: new Date('2026-09-05T15:00:00-05:00').getTime() },
+  ],
+};
+const pend = {};
+const nameFrom = (email) => {
+  const local = String(email).split('@')[0];
+  const first = local.split(/[^A-Za-zÁÉÍÓÚÑáéíóúñ]+/).find(Boolean) || 'Eafitense';
+  return first[0].toUpperCase() + first.slice(1).toLowerCase();
+};
+const maskEmail = (email) => { const [u, d] = String(email).split('@'); return `${(u || 'u')[0]}***@${d || 'eafit.edu.co'}`; };
+const lotOf = (id) => db.parkings.find((p) => p.id === id);
+const freeOf = (p) => p.total - p.occupied;
+// Simulación del tiempo de espera: crece con la ocupación y varía un poco en cada consulta.
+const waitOf = (p) => {
+  p.jit = Math.min(1.25, Math.max(0.75, (p.jit ?? 1) + (Math.random() - 0.5) * 0.25));
+  const charge = p.kind === 'charge';
+  if (freeOf(p) === 0) return Math.round((charge ? 30 : 18) * p.jit);
+  return Math.round(Math.pow(p.occupied / p.total, 3) * (charge ? 35 : 20) * p.jit);
+};
+const lotView = (p) => {
+  const free = freeOf(p), wait = waitOf(p);
+  return { id: p.id, name: p.name, kind: p.kind, sector: p.kind, gates: p.gates, exit: p.exit, total: p.total, free, wait, queue: Math.round(wait / 1.5), status: free === 0 ? 'full' : free / p.total < 0.25 ? 'low' : 'ok' };
+};
+const quote = (t) => { const hours = Math.max(1, Math.ceil((Date.now() - t.enteredAt) / 36e5)); return { hours, amount: hours * 5000, ratePerHour: 5000 }; };
+const payOf = (t) => db.payments.findLast((p) => p.ticketCode === t.code);
+const pub = (t) => ({
+  code: t.code, type: t.type, plate: t.plate ?? null, status: t.status, parkingId: t.parkingId,
+  parkingName: lotOf(t.parkingId).name, enteredAt: t.enteredAt,
+  ...(['inside', 'paid'].includes(t.status) ? { quote: quote(t) } : {}),
+  ...(['paid', 'exited'].includes(t.status) ? { payment: payOf(t) } : {}),
+});
+const rc = (n) => Array.from({ length: n }, () => 'ABCDEFGHJKMNPQRSTUVWXYZ23456789'[Math.floor(Math.random() * 31)]).join('');
+const need = () => { if (!session.token) throw new Error('Inicia sesión para continuar.'); };
+const norm = (v) => String(v ?? '').trim().toUpperCase().replace(/[\s-]/g, '');
+function takeSpot(kind, staffOk) {
+  const lot = db.parkings.filter((p) => p.kind === kind && (staffOk || !p.staff) && freeOf(p) > 0).sort((a, b) => freeOf(b) - freeOf(a))[0];
+  if (!lot) throw new Error('No hay cupos disponibles.');
+  lot.occupied += 1;
+  return lot;
+}
+const addTicket = (extra) => { const t = { code: `EAP-${rc(8)}`, status: 'inside', enteredAt: Date.now(), ...extra }; db.tickets.push(t); return t; };
+
+async function api(path, { method = 'GET', body = {} } = {}) {
+  await new Promise((r) => setTimeout(r, 100));
+  let m;
+  if (path === '/parkings') {
+    const parkings = db.parkings.map(lotView);
+    const sum = (k) => parkings.filter((p) => p.kind === k).reduce((n, p) => n + p.free, 0);
+    return { sectors: [{ id: 'carro', name: 'Carros', free: sum('carro') }, { id: 'moto', name: 'Motos', free: sum('moto') }], parkings, totalFree: parkings.reduce((n, p) => n + p.free, 0), updatedAt: Date.now() };
+  }
+  if (path === '/special') {
+    const lots = db.special.map(lotView);
+    const sum = (k) => lots.filter((p) => p.kind === k).reduce((n, p) => n + p.free, 0);
+    return { sectors: [{ id: 'moto', name: 'Motos', free: sum('moto') }, { id: 'charge', name: 'Eléctricos', free: sum('charge') }, { id: 'access', name: 'Accesibilidad', free: sum('access') }], lots, totalFree: lots.reduce((n, p) => n + p.free, 0), updatedAt: Date.now() };
+  }
+  if (path === '/auth/login') {
+    // Demo: se acepta cualquier correo y contraseña.
+    session.email = body.email;
+    session.name = nameFrom(body.email);
+    return { token: 'demo', user: { name: session.name, email: session.email } };
+  }
+  if (path === '/auth/logout') return { ok: true };
+  if (path === '/me') { need(); const s = db.tickets.findLast((t) => t.type === 'eafitense' && ['inside', 'paid'].includes(t.status)); return { user: { name: session.name, email: session.email }, plates: db.plates, carnet: db.carnet, stay: s ? pub(s) : null }; }
+  if (path === '/me/payments') { need(); return { payments: [...db.payments].sort((a, b) => b.paidAt - a.paidAt).map((p) => ({ ...p, parkingName: lotOf(p.parkingId).name })) }; }
+  if (path === '/me/carnet/recharge') {
+    need();
+    const a = Number(body.amount);
+    if (!(a >= 1000 && a <= 500000)) throw new Error('Monto de recarga no válido.');
+    db.carnet.balance += a;
+    return { balance: db.carnet.balance };
+  }
+  if (path === '/me/plates') {
+    need();
+    const plate = norm(body.plate);
+    if (!/^[A-Z]{3}\d{3}$/.test(plate) && !/^[A-Z]{3}\d{2}[A-Z]$/.test(plate)) throw new Error('La placa debe tener formato ABC123 (carro) o ABC12D (moto).');
+    if (db.plates.some((p) => p.plate === plate)) throw new Error('Esa placa ya está validada en tu cuenta.');
+    pend[plate] = String(100000 + Math.floor(Math.random() * 900000));
+    return { maskedEmail: maskEmail(session.email), devCode: pend[plate] };
+  }
+  if (path === '/me/plates/delete') {
+    need();
+    const gone = new Set((body.plates ?? []).map(norm));
+    db.plates = db.plates.filter((p) => !gone.has(p.plate));
+    return { plates: db.plates };
+  }
+  if (path === '/me/plates/verify') {
+    need();
+    const plate = norm(body.plate);
+    if (!pend[plate]) throw new Error('El código venció. Solicita uno nuevo.');
+    if (String(body.code).trim() !== pend[plate]) throw new Error('Código incorrecto.');
+    delete pend[plate];
+    db.plates.push({ plate, verifiedAt: Date.now() });
+    return { plates: db.plates };
+  }
+  if (path === '/me/enter') {
+    need();
+    const plate = norm(body.plate);
+    if (db.tickets.some((t) => t.plate === plate && ['inside', 'paid'].includes(t.status))) throw new Error('Esa placa ya tiene una estadía activa.');
+    const kind = /^[A-Z]{3}\d{2}[A-Z]$/.test(plate) ? 'moto' : 'carro';
+    return { ticket: pub(addTicket({ type: 'eafitense', userEmail: 'lina@eafit.edu.co', plate, parkingId: takeSpot(kind, true).id })) };
+  }
+  if (path === '/visitor/tickets') return { ticket: pub(addTicket({ type: 'visitante', parkingId: takeSpot('carro', false).id })) };
+  if ((m = path.match(/^\/tickets\/([^/]+)(\/pay)?$/))) {
+    const t = db.tickets.find((k) => k.code === decodeURIComponent(m[1]).toUpperCase());
+    if (!t) throw new Error('Ticket no encontrado.');
+    if (!m[2]) return { ticket: pub(t) };
+    if (t.type === 'eafitense') need();
+    const { hours, amount } = quote(t);
+    if (body.method === 'Carnet') {
+      need();
+      if (db.carnet.balance < amount) throw new Error('Saldo insuficiente en tu carnet. Recárgalo para continuar.');
+      db.carnet.balance -= amount;
+    }
+    const paidAt = Date.now();
+    const payment = { id: `pay_${rc(6)}`, ticketCode: t.code, parkingId: t.parkingId, amount, hours, method: body.method === 'Tótem' ? 'Tótem' : body.method === 'Carnet' ? 'Carnet' : body.bank ? `PSE · ${body.bank}` : 'PSE', paidAt, exit: lotOf(t.parkingId).exit, exitCode: rc(10), exitValidUntil: paidAt + 15 * 6e4 };
+    db.payments.push(payment);
+    t.status = 'paid';
+    return { payment };
+  }
+  throw new Error('Ruta no encontrada.');
+}
+
+// Generador de códigos QR sin dependencias.
+// Modo byte (UTF-8), corrección de errores nivel M, versiones 1–6 (hasta 106 bytes).
+// Si el equipo necesita textos más largos, conviene cambiar a una librería (p. ej. "qrcode").
+
+const ECC = { 1: [16, 10, 1], 2: [28, 16, 1], 3: [44, 26, 1], 4: [64, 18, 2], 5: [86, 24, 2], 6: [108, 16, 4] }; // [datos, EC por bloque, bloques]
+const ALIGN = { 1: [], 2: [6, 18], 3: [6, 22], 4: [6, 26], 5: [6, 30], 6: [6, 34] };
+
+// --- Aritmética en GF(256) y Reed-Solomon ---
+const EXP = new Uint8Array(512);
+const LOG = new Uint8Array(256);
+for (let i = 0, x = 1; i < 255; i++) { EXP[i] = x; LOG[x] = i; x <<= 1; if (x & 256) x ^= 0x11d; }
+for (let i = 255; i < 512; i++) EXP[i] = EXP[i - 255];
+const mul = (a, b) => (a && b ? EXP[LOG[a] + LOG[b]] : 0);
+
+function rsGenerator(degree) {
+  let poly = [1];
+  for (let i = 0; i < degree; i++) {
+    const next = new Array(poly.length + 1).fill(0);
+    for (let j = 0; j < poly.length; j++) { next[j] ^= poly[j]; next[j + 1] ^= mul(poly[j], EXP[i]); }
+    poly = next;
+  }
+  return poly;
+}
+
+function rsRemainder(data, gen) {
+  const rem = new Array(gen.length - 1).fill(0);
+  for (const b of data) {
+    const factor = b ^ rem.shift();
+    rem.push(0);
+    for (let i = 0; i < rem.length; i++) rem[i] ^= mul(gen[i + 1], factor);
+  }
+  return rem;
+}
+
+function encodeData(bytes, version) {
+  const cap = ECC[version][0] * 8;
+  const bits = [];
+  const push = (v, n) => { for (let i = n - 1; i >= 0; i--) bits.push((v >>> i) & 1); };
+  push(0b0100, 4);
+  push(bytes.length, 8);
+  bytes.forEach((b) => push(b, 8));
+  push(0, Math.min(4, cap - bits.length));
+  while (bits.length % 8) bits.push(0);
+  for (let pad = 0xec; bits.length < cap; pad ^= 0xec ^ 0x11) push(pad, 8);
+  const out = [];
+  for (let i = 0; i < bits.length; i += 8) out.push(parseInt(bits.slice(i, i + 8).join(''), 2));
+  return out;
+}
+
+function withEcc(data, version) {
+  const [dataCw, ecLen, nBlocks] = ECC[version];
+  const per = dataCw / nBlocks;
+  const gen = rsGenerator(ecLen);
+  const blocks = [];
+  const ecs = [];
+  for (let i = 0; i < nBlocks; i++) {
+    const d = data.slice(i * per, (i + 1) * per);
+    blocks.push(d);
+    ecs.push(rsRemainder(d, gen));
+  }
+  const out = [];
+  for (let i = 0; i < per; i++) blocks.forEach((b) => out.push(b[i]));
+  for (let i = 0; i < ecLen; i++) ecs.forEach((e) => out.push(e[i]));
+  return out;
+}
+
+const MASKS = [
+  (x, y) => (x + y) % 2 === 0,
+  (x, y) => y % 2 === 0,
+  (x, y) => x % 3 === 0,
+  (x, y) => (x + y) % 3 === 0,
+  (x, y) => (Math.floor(x / 3) + Math.floor(y / 2)) % 2 === 0,
+  (x, y) => ((x * y) % 2) + ((x * y) % 3) === 0,
+  (x, y) => (((x * y) % 2) + ((x * y) % 3)) % 2 === 0,
+  (x, y) => (((x + y) % 2) + ((x * y) % 3)) % 2 === 0,
+];
+
+function penalty(m) {
+  const n = m.length;
+  let score = 0;
+  const lines = [];
+  for (let i = 0; i < n; i++) {
+    lines.push(m[i].map(Number).join(''));
+    lines.push(m.map((row) => Number(row[i])).join(''));
+  }
+  for (const line of lines) {
+    for (const run of line.match(/0+|1+/g)) if (run.length >= 5) score += 3 + run.length - 5;       // regla 1
+    score += 40 * ((line.match(/(?=10111010000)/g) ?? []).length + (line.match(/(?=00001011101)/g) ?? []).length); // regla 3
+  }
+  for (let y = 0; y < n - 1; y++) {
+    for (let x = 0; x < n - 1; x++) {
+      if (m[y][x] === m[y][x + 1] && m[y][x] === m[y + 1][x] && m[y][x] === m[y + 1][x + 1]) score += 3; // regla 2
+    }
+  }
+  const dark = m.flat().filter(Boolean).length;
+  score += Math.floor(Math.abs((dark * 100) / (n * n) - 50) / 5) * 10;                                  // regla 4
+  return score;
+}
+
+function qrMatrix(text) {
+  const bytes = [...new TextEncoder().encode(text)];
+  const version = [1, 2, 3, 4, 5, 6].find((v) => bytes.length <= ECC[v][0] - 2);
+  if (!version) throw new Error('Texto demasiado largo para el QR');
+  const size = 17 + 4 * version;
+  const m = Array.from({ length: size }, () => new Array(size).fill(false));
+  const fn = Array.from({ length: size }, () => new Array(size).fill(false));
+  const setFn = (x, y, dark) => { m[y][x] = dark; fn[y][x] = true; };
+
+  for (let i = 0; i < size; i++) { setFn(6, i, i % 2 === 0); setFn(i, 6, i % 2 === 0); } // temporización
+  const finder = (cx, cy) => {
+    for (let dy = -4; dy <= 4; dy++) {
+      for (let dx = -4; dx <= 4; dx++) {
+        const x = cx + dx, y = cy + dy;
+        if (x < 0 || y < 0 || x >= size || y >= size) continue;
+        const d = Math.max(Math.abs(dx), Math.abs(dy));
+        setFn(x, y, d !== 2 && d !== 4);
+      }
+    }
+  };
+  finder(3, 3); finder(size - 4, 3); finder(3, size - 4);
+
+  const pos = ALIGN[version];
+  pos.forEach((cy, i) => pos.forEach((cx, j) => {
+    if ((i === 0 && j === 0) || (i === 0 && j === pos.length - 1) || (i === pos.length - 1 && j === 0)) return;
+    for (let dy = -2; dy <= 2; dy++) for (let dx = -2; dx <= 2; dx++) setFn(cx + dx, cy + dy, Math.max(Math.abs(dx), Math.abs(dy)) !== 1);
+  }));
+
+  const drawFormat = (mask) => {
+    const data = mask; // nivel M = 00
+    let rem = data;
+    for (let i = 0; i < 10; i++) rem = (rem << 1) ^ ((rem >>> 9) * 0x537);
+    const bits = ((data << 10) | rem) ^ 0x5412;
+    const bit = (i) => ((bits >>> i) & 1) !== 0;
+    for (let i = 0; i <= 5; i++) setFn(8, i, bit(i));
+    setFn(8, 7, bit(6)); setFn(8, 8, bit(7)); setFn(7, 8, bit(8));
+    for (let i = 9; i < 15; i++) setFn(14 - i, 8, bit(i));
+    for (let i = 0; i < 8; i++) setFn(size - 1 - i, 8, bit(i));
+    for (let i = 8; i < 15; i++) setFn(8, size - 15 + i, bit(i));
+    setFn(8, size - 8, true); // módulo oscuro
+  };
+  drawFormat(0); // reserva el área de formato
+
+  const codewords = withEcc(encodeData(bytes, version), version);
+  let k = 0;
+  for (let right = size - 1; right >= 1; right -= 2) {
+    if (right === 6) right = 5;
+    for (let vert = 0; vert < size; vert++) {
+      for (let j = 0; j < 2; j++) {
+        const x = right - j;
+        const y = ((right + 1) & 2) === 0 ? size - 1 - vert : vert;
+        if (!fn[y][x] && k < codewords.length * 8) { m[y][x] = ((codewords[k >>> 3] >>> (7 - (k & 7))) & 1) !== 0; k++; }
+      }
+    }
+  }
+
+  const applyMask = (id) => { for (let y = 0; y < size; y++) for (let x = 0; x < size; x++) if (!fn[y][x] && MASKS[id](x, y)) m[y][x] = !m[y][x]; };
+  let best = 0, bestScore = Infinity;
+  for (let id = 0; id < 8; id++) {
+    applyMask(id); drawFormat(id);
+    const s = penalty(m);
+    if (s < bestScore) { bestScore = s; best = id; }
+    applyMask(id);
+  }
+  applyMask(best); drawFormat(best);
+  return m;
+}
+
+// Devuelve un <svg> listo para insertar (sin estilos en línea, compatible con la CSP).
+function qrSvg(text, { margin = 4, label = 'Código QR' } = {}) {
+  const m = qrMatrix(text);
+  const dim = m.length + margin * 2;
+  let d = '';
+  m.forEach((row, y) => row.forEach((dark, x) => { if (dark) d += `M${x + margin} ${y + margin}h1v1h-1z`; }));
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${dim} ${dim}" shape-rendering="crispEdges" role="img" aria-label="${label}"><rect width="${dim}" height="${dim}" fill="#fff"/><path d="${d}" fill="#0f2742"/></svg>`;
+}
+
+
+// ---------- Mapa del campus (coordenadas del CSV oficial) ----------
+const CAMPUS = {"w": 360, "h": 526, "base": "<path d=\"M23.2 492.2 L117.6 54.1 L135.5 37.2 L211.4 29.6 L274.8 23.4 L293.8 23.9 L319.3 62.3 L336.8 89.1 L156.7 394.5 L82.4 488.1 L57.3 502.6 L30.9 500.3Z\" fill=\"#dce8f5\" stroke=\"#dce8f5\" stroke-width=\"30\" stroke-linejoin=\"round\"/><circle cx=\"188.8\" cy=\"165.9\" r=\"8\" fill=\"#cfe6d6\"/><circle cx=\"131.1\" cy=\"204.2\" r=\"8\" fill=\"#cfe6d6\"/><circle cx=\"274.8\" cy=\"23.4\" r=\"8\" fill=\"#cfe6d6\"/><circle cx=\"131.4\" cy=\"139.9\" r=\"8\" fill=\"#cfe6d6\"/><circle cx=\"164.3\" cy=\"151.4\" r=\"8\" fill=\"#cfe6d6\"/><rect x=\"76.4\" y=\"483.6\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"57.3\" y=\"476.0\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"81.0\" y=\"473.4\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"95.0\" y=\"399.1\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"23.2\" y=\"483.6\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"24.9\" y=\"495.8\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"50.4\" y=\"496.7\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"115.0\" y=\"67.7\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"150.1\" y=\"253.5\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"278.9\" y=\"62.2\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"146.1\" y=\"201.1\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"180.3\" y=\"245.5\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"46.3\" y=\"387.9\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"107.8\" y=\"399.3\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"123.6\" y=\"319.7\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"123.7\" y=\"303.9\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"123.4\" y=\"290.3\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"123.9\" y=\"274.5\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"124.1\" y=\"258.1\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"119.7\" y=\"236.3\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"61.6\" y=\"355.2\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"96.1\" y=\"307.1\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"70.0\" y=\"310.8\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"94.5\" y=\"270.6\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"99.9\" y=\"200.0\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"102.4\" y=\"161.6\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"118.2\" y=\"160.2\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"135.9\" y=\"160.0\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"109.0\" y=\"140.0\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"157.8\" y=\"92.1\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"112.2\" y=\"117.6\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"111.8\" y=\"103.1\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"114.4\" y=\"87.4\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"129.5\" y=\"32.7\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"162.0\" y=\"67.2\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"164.0\" y=\"36.7\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"88.2\" y=\"244.2\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"287.8\" y=\"19.4\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><rect x=\"71.0\" y=\"288.4\" width=\"12\" height=\"9\" rx=\"2\" fill=\"#c3d3e8\" stroke=\"#9db3d1\" stroke-width=\".8\"/><text class=\"al\" x=\"163.8\" y=\"88.6\">Biblioteca</text><text class=\"al\" x=\"156.1\" y=\"250.0\">Cafetería</text><text class=\"al\" x=\"164.3\" y=\"140.4\">Plazoleta</text><text class=\"al\" transform=\"translate(354 221) rotate(90)\">AV. LAS VEGAS</text><text class=\"al\" transform=\"translate(8 326) rotate(-90)\">AV. REGIONAL</text>", "gates": [{"n": 2, "name": "Portería 2", "x": 210.9, "y": 231.3, "kinds": ["carro"], "desc": "Carros del personal · Av. Las Vegas · Parquean en el parqueadero de profesores y empleados"}, {"n": 3, "name": "Portería 3", "x": 156.7, "y": 394.5, "kinds": ["carro", "moto"], "desc": "Carros y motos · Av. Las Vegas · Registro de visitantes · Parquean en Parqueadero Sur y de motos"}, {"n": 4, "name": "Portería 4", "x": 57.6, "y": 380.9, "kinds": ["carro", "moto"], "desc": "Carros y motos · Av. Regional · Registro de visitantes · Parquean en Parqueadero Sur y de motos"}, {"n": 5, "name": "Portería 5", "x": 91.7, "y": 223.7, "kinds": ["carro"], "desc": "Carros del personal y Centro Argos · Av. Regional · Parquean en Parqueadero Argos"}, {"n": 6, "name": "Portería 6", "x": 117.6, "y": 54.1, "kinds": ["carro"], "desc": "Ingreso de carros · Av. Regional · Registro de visitantes · Parquean en Parqueadero Norte y Los Guayabos"}, {"n": 8, "name": "Portería 8", "x": 234.0, "y": 54.2, "kinds": ["carro"], "desc": "Solo salida de carros del Parqueadero Norte"}], "lots": {"SUR": {"x": 119.5, "y": 367.4, "short": "Sur"}, "NOR": {"x": 211.1, "y": 29.1, "short": "Norte"}, "GUA": {"x": 336.8, "y": 89.1, "short": "Guayabos"}, "PRO": {"x": 178.2, "y": 222.2, "short": "Profesores"}, "ARG": {"x": 125.2, "y": 229.3, "short": "Argos"}, "MOT": {"x": 147.2, "y": 346.2, "short": "Motos"}}, "totems": [{"name": "Tótem · Portería 3", "short": "Port. 3", "x": 178.0, "y": 373.3, "dist": "En la entrada"}, {"name": "Tótem · Portería 4", "short": "Port. 4", "x": 78.9, "y": 359.8, "dist": "140 m de la entrada"}, {"name": "Tótem · Parqueadero Norte", "short": "Norte", "x": 233.0, "y": 8.5, "dist": "530 m de la entrada"}, {"name": "Tótem · Bloque 29 (Cajas)", "short": "Bloque 29", "x": 155.9, "y": 150.5, "dist": "330 m de la entrada"}], "user": {"x": 140.7, "y": 408.5}};
+const KIND = { carro: ['🚗', 'Carros'], moto: ['🏍️', 'Motos'], charge: ['⚡', 'Eléctricos'], access: ['♿', 'Accesibilidad'] };
+// Posición de las zonas de espacios especiales en el mapa.
+const SPECIAL_POS = {
+  MO3: { x: 152, y: 352, short: 'Motos P3' }, MO4: { x: 80, y: 370, short: 'Motos P4' },
+  EVS: { x: 118, y: 338, short: 'Carga Sur' }, EVP: { x: 200, y: 215, short: 'Carga Prof.' }, EVN: { x: 205, y: 52, short: 'Carga Norte' },
+  ACS: { x: 122, y: 402, short: 'Acces. Sur' }, ACP: { x: 150, y: 185, short: 'Acces. Plaz.' }, ACN: { x: 205, y: 100, short: 'Acces. Bibl.' },
+};
+// Rutas a pie desde la ubicación del usuario hasta cada tótem (mismo orden que CAMPUS.totems).
+const M_PER_PX = 1.43;
+const TOTEM_ROUTES = [
+  [[140.7, 408.5], [156.7, 394.5], [178, 373.3]],
+  [[140.7, 408.5], [112, 388], [78.9, 359.8]],
+  [[140.7, 408.5], [125, 380], [118, 330], [140, 262], [150, 200], [155.9, 150.5], [180, 105], [212, 70], [234, 54.2], [233, 30], [233, 8.5]],
+  [[140.7, 408.5], [125, 380], [118, 330], [140, 262], [150, 200], [155.9, 150.5]],
+];
+let activeTotem = 0;
+// Estado simulado de los tótems (mismo orden que CAMPUS.totems).
+const TOTEM_STATUS = [{ s: 'ok' }, { s: 'busy', q: 4 }, { s: 'ok' }, { s: 'down' }];
+function totemState(i) {
+  const t = TOTEM_STATUS[i];
+  return t.s === 'down' ? { cls: 'down', label: 'Fuera de servicio' } : t.s === 'busy' ? { cls: 'busy', label: `Fila de ~${t.q} min` } : { cls: 'ok', label: 'Disponible' };
+}
+const segLen = (a, b) => Math.hypot(b[0] - a[0], b[1] - a[1]);
+const routeLen = (pts) => pts.reduce((n, p, i) => (i ? n + segLen(pts[i - 1], p) : 0), 0);
+function pointAt(pts, frac) {
+  let d = routeLen(pts) * frac;
+  for (let i = 1; i < pts.length; i++) {
+    const l = segLen(pts[i - 1], pts[i]);
+    if (d <= l) { const t = d / l; return [pts[i - 1][0] + (pts[i][0] - pts[i - 1][0]) * t, pts[i - 1][1] + (pts[i][1] - pts[i - 1][1]) * t]; }
+    d -= l;
+  }
+  return pts[pts.length - 1];
+}
+const routeInfo = (i) => { const m = Math.max(10, Math.round((routeLen(TOTEM_ROUTES[i]) * M_PER_PX) / 10) * 10); return { m, min: Math.max(1, Math.round(m / 80)) }; };
+const nearestGate = () => CAMPUS.gates.map((g) => ({ g, d: Math.hypot(g.x - CAMPUS.user.x, g.y - CAMPUS.user.y) * M_PER_PX })).sort((a, b) => a.d - b.d)[0];
+
+function campusSvg({ mode, lots = [], filter = 'all' }) {
+  const C = CAMPUS;
+  const used = new Set(lots.filter((l) => filter === 'all' || l.kind === filter).flatMap((l) => l.gates));
+  const gateDim = (g) => filter !== 'all' && (mode === 'special' ? !used.has(g.name) : !g.kinds.includes(filter));
+  const gates = C.gates.map((g) => `<g class="gate${gateDim(g) ? ' dim' : ''}" transform="translate(${g.x - 9} ${g.y - 9})"><rect width="18" height="18" rx="5"/><text x="9" y="12.5">${g.n}</text></g>`).join('');
+  let under = '';
+  let marks;
+  if (mode === 'parking' || mode === 'special') {
+    marks = lots.map((l) => { const c = C.lots[l.id] || SPECIAL_POS[l.id]; return `<g class="${filter !== 'all' && l.kind !== filter ? 'dim' : ''}"><circle class="mk ${l.status}" cx="${c.x}" cy="${c.y}" r="15"/><text class="mt" x="${c.x}" y="${c.y + 3.5}">${l.free}</text><text class="ml" x="${c.x}" y="${c.y + 27}">${KIND[l.kind][0]} ${c.short}</text></g>`; }).join('');
+  } else {
+    const u = C.user;
+    const ng = nearestGate().g;
+    under = TOTEM_ROUTES.map((pts, i) => ({ pts, i })).sort((a, b) => (a.i === activeTotem) - (b.i === activeTotem))
+      .map(({ pts, i }) => `<polyline class="route${i === activeTotem ? ' active' : ''}${TOTEM_STATUS[i].s === 'down' ? ' down' : ''}" points="${pts.map((p) => p.join(',')).join(' ')}"/>`).join('');
+    const [lx, ly] = pointAt(TOTEM_ROUTES[activeTotem], 0.5);
+    const info = routeInfo(activeTotem);
+    under += `<text class="rl" x="${lx.toFixed(1)}" y="${(ly - 7).toFixed(1)}">${info.m} m · ${info.min} min</text>`;
+    marks = C.totems.map((t, i) => `<g>${i === activeTotem ? `<circle class="totem-ring" cx="${t.x}" cy="${t.y}" r="17"/>` : ''}<circle class="totem-pin${TOTEM_STATUS[i].s === 'down' ? ' down' : ''}" cx="${t.x}" cy="${t.y}" r="11"/><text class="mt" x="${t.x}" y="${t.y + 3.5}">${TOTEM_STATUS[i].s === 'down' ? '✕' : '$'}</text><text class="ml" x="${t.x}" y="${t.y + 23}">${t.short}</text></g>`).join('')
+      + `<g><circle class="user-halo" cx="${u.x}" cy="${u.y}" r="16"/><circle class="user-pin" cx="${u.x}" cy="${u.y}" r="7"/><circle cx="${u.x}" cy="${u.y}" r="2.5" fill="#fff"/><g class="user-tag" transform="translate(${u.x - 56} ${u.y + 14})"><rect width="112" height="27" rx="7"/><text class="ut1" x="56" y="11">Estás aquí</text><text class="ut2" x="56" y="21">${esc(ng.name)} · Av. Las Vegas</text></g></g>`;
+  }
+  return `<svg viewBox="0 0 ${C.w} ${C.h}" role="img" aria-label="Mapa del campus EAFIT">${C.base}${gates}${under}${marks}</svg>`;
+}
+
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const money = (n) => `$ ${n.toLocaleString('es-CO')}`;
+const time = (ms) => new Date(ms).toLocaleTimeString('es-CO', { hour: '2-digit', minute: '2-digit' });
+const sameDay = (a, b) => new Date(a).toDateString() === new Date(b).toDateString();
+const dateLabel = (ms) => (sameDay(ms, Date.now())
+  ? 'Hoy'
+  : new Date(ms).toLocaleDateString('es-CO', { day: '2-digit', month: 'short', year: 'numeric' }).replace('.', ''));
+const hoursLabel = (h) => `${h} ${h === 1 ? 'hora' : 'horas'}`;
+
+let role = null;
+let historyStack = ['welcome'];
+let ticket = null;
+let me = null;
+let parkingsData = null;
+let activeSector = 'all';
+let pendingPlate = null;
+
+const homeId = () => (role === 'eafitense' ? 'eafit-home' : 'welcome');
+
+const loaders = {
+  'eafit-home': () => { loadParkings(); loadHomeNotice(); },
+  parking: () => loadParkings(),
+  special: loadSpecial,
+  bank: () => { renderLinked(); loadStay(); return loadPayments(); },
+  plates: loadPlates,
+  pay: loadPay,
+  'visitor-ticket': renderVisitorTicket,
+  receipt: renderReceipt,
+  pse: renderPse,
+  info: renderSettings,
+  profile: renderProfile,
+  recharge: renderRecharge,
+  'pse-bank': renderPseBank,
+  'plates-delete': renderPlatesDelete,
+  'pay-carnet': renderPayCarnet,
+  'pay-nocarnet': renderPayNoCarnet,
+};
+
+function showScreen(id, push = true) {
+  const current = document.querySelector('.screen.active');
+  if (current?.id === id) return;
+  current?.classList.remove('active');
+  const next = $(id);
+  next.classList.add('active');
+  document.querySelector('.back').style.visibility = id === 'welcome' || id === 'eafit-home' ? 'hidden' : 'visible';
+  if (push) historyStack.push(id);
+  loaders[id]?.();
+  const heading = next.querySelector('h1, h2');
+  if (heading) { heading.tabIndex = -1; heading.focus({ preventScroll: true }); }
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function home() {
+  showScreen(homeId(), false);
+  historyStack = [homeId()];
+}
+
+function goBack() {
+  historyStack.pop();
+  showScreen(historyStack[historyStack.length - 1] || 'welcome', false);
+}
+
+function chooseRole(type) {
+  role = type;
+  showScreen(type === 'eafitense' ? 'login' : 'visitor-form');
+}
+
+async function signIn() {
+  const email = $('email').value.trim();
+  const password = $('password').value;
+  if (!email || !password) return toast('Ingresa tu correo y tu contraseña.');
+  const { token, user } = await api('/auth/login', { method: 'POST', body: { email, password } });
+  session.token = token;
+  $('greeting-name').textContent = `HOLA, ${user.name.toUpperCase()}`;
+  $('password').value = '';
+  showScreen('eafit-home');
+  historyStack = ['eafit-home'];
+  loadMe().then(() => { if (me.stay?.status === 'inside') toast('🔔 Recuerda pagar el parqueadero antes de salir.'); }).catch(() => {});
+}
+
+function togglePassword() {
+  const f = $('password');
+  f.type = f.type === 'password' ? 'text' : 'password';
+}
+
+async function getVisitorTicket() {
+  ({ ticket } = await api('/visitor/tickets', { method: 'POST' }));
+  showScreen('visitor-ticket');
+}
+
+function setQr(el, text, label) {
+  try { el.innerHTML = qrSvg(text, { label }); }
+  catch { el.textContent = text; }
+}
+
+function renderVisitorTicket() {
+  if (!ticket) return;
+  $('ticket-entry').textContent = `Ingreso: ${dateLabel(ticket.enteredAt)}, ${time(ticket.enteredAt)}`;
+  $('visitor-code').textContent = ticket.code;
+  setQr($('visitor-qr'), `${location.origin}/?ticket=${ticket.code}`, 'Código QR para pagar en la app');
+}
+
+async function goPay() {
+  if (role === 'eafitense') {
+    await loadMe();
+    if (!me.stay) return toast('No tienes una estadía activa. Registra tu ingreso en "Mis pagos".');
+    ticket = me.stay;
+  }
+  if (!ticket) return toast('Aún no tienes un ticket.');
+  showScreen('pay');
+}
+
+async function loadPay() {
+  if (!ticket) return;
+  try {
+    ({ ticket } = await api(`/tickets/${ticket.code}`));
+    if (!['inside', 'paid'].includes(ticket.status)) { toast('Este ticket ya no tiene una estadía por pagar.'); return home(); }
+    const paid = ticket.status === 'paid';
+    const p = ticket.payment;
+    $('pay-notice').hidden = paid;
+    $('pay-methods').hidden = false;
+    $('repay-note').hidden = !paid;
+    $('receipt-btn').disabled = !paid;
+    $('receipt-hint').hidden = paid;
+    $('pay-carnet-opt').hidden = role !== 'eafitense';
+    if (paid) {
+      $('pay-summary').innerHTML = `<div class="payment-card paid-card"><span>✓ ${esc(ticket.parkingName)} · pagado con ${esc(p.method)}</span><b>Pagado</b><small>${money(p.amount)} · ${hoursLabel(p.hours)} · Sal por ${esc(p.exit)} antes de las ${esc(time(p.exitValidUntil))}</small></div>`;
+    } else {
+      const q = ticket.quote;
+      $('pay-summary').innerHTML = `<div class="payment-card"><span>${esc(ticket.parkingName)} · ingreso ${esc(time(ticket.enteredAt))}</span><b>${money(q.amount)}</b><small>${hoursLabel(q.hours)} · ${money(q.ratePerHour)} por hora · por pagar</small></div>`;
+    }
+    const card = $('carnet-card');
+    card.hidden = role !== 'eafitense';
+    if (role === 'eafitense') {
+      await loadMe();
+      const note = paid && p.method === 'Carnet' ? `Saldo actualizado: se descontaron ${money(p.amount)} del parqueadero` : 'saldo disponible';
+      card.innerHTML = `<div class="payment-card"><span>Carnet</span><b>${money(me.carnet.balance)}</b><small>${note}</small><button type="button" class="secondary" data-action="go-recharge">Recargar carnet</button></div>`;
+    }
+  } catch (e) { toast(e.message); }
+}
+
+async function renderPayCarnet() {
+  if (!ticket) return;
+  try {
+    ({ ticket } = await api(`/tickets/${ticket.code}`));
+    if (!ticket.quote) return showScreen('pay', false);
+    await loadMe();
+    const q = ticket.quote, bal = me.carnet.balance, left = bal - q.amount;
+    $('carnet-pay-summary').innerHTML = `
+      <div class="payment-card"><span>Saldo en tu carnet</span><b>${money(bal)}</b></div>
+      <div class="payment-card"><span>${esc(ticket.parkingName)} · ${hoursLabel(q.hours)}</span><b>${money(q.amount)}</b><small>Total a pagar · ${money(q.ratePerHour)} por hora</small></div>
+      <div class="payment-card"><span>Saldo después del pago</span><b>${left >= 0 ? money(left) : 'Saldo insuficiente'}</b>${left < 0 ? `<small>Te faltan ${money(-left)}. Recarga tu carnet para continuar.</small><button type="button" class="secondary" data-action="go-recharge">Recargar carnet</button>` : ''}</div>`;
+    $('carnet-pay-btn').disabled = left < 0;
+  } catch (e) { toast(e.message); }
+}
+
+function renderPayNoCarnet() {
+  if (!ticket?.quote) return;
+  $('nocarnet-summary').innerHTML = pseCard();
+}
+
+async function carnetPay() {
+  await api(`/tickets/${ticket.code}/pay`, { method: 'POST', body: { method: 'Carnet' } });
+  ({ ticket } = await api(`/tickets/${ticket.code}`));
+  toast('Pago exitoso con tu carnet.');
+  historyStack = [homeId(), 'pay'];
+  showScreen('pay', false);
+}
+
+async function payWith(method, bank) {
+  await api(`/tickets/${ticket.code}/pay`, { method: 'POST', body: { method, bank } });
+  ({ ticket } = await api(`/tickets/${ticket.code}`));
+  historyStack = [homeId(), 'pay', 'receipt'];
+  showScreen('receipt', false);
+}
+
+let receiptPay = null;
+function tickCountdown() {
+  const el = $('receipt-countdown');
+  if (!receiptPay || !el) return;
+  const left = receiptPay.exitValidUntil - Date.now();
+  if (left > 0) {
+    el.textContent = `Tiempo para salir por ${receiptPay.exit}: ${Math.floor(left / 6e4)}:${String(Math.floor((left % 6e4) / 1000)).padStart(2, '0')}`;
+    el.classList.remove('expired');
+  } else {
+    el.textContent = 'Tu tiempo de salida venció. Si sigues dentro, vuelve a pagar para generar un nuevo comprobante.';
+    el.classList.add('expired');
+  }
+}
+setInterval(tickCountdown, 1000);
+
+function renderReceipt() {
+  const p = ticket?.payment;
+  if (!p) return;
+  receiptPay = p;
+  tickCountdown();
+  $('receipt-exit').textContent = p.exit;
+  $('receipt-code').textContent = p.exitCode;
+  $('receipt-amount').textContent = money(p.amount);
+  $('receipt-until').textContent = time(p.exitValidUntil);
+  $('receipt-method').textContent = p.method;
+  $('receipt-hours').textContent = hoursLabel(p.hours);
+  setQr($('receipt-qr'), `eapark:exit:${p.exitCode}`, 'Código QR para la salida');
+}
+
+async function loadMe() {
+  me = await api('/me');
+  return me;
+}
+
+async function loadStay() {
+  const box = $('stay-info');
+  try {
+    await loadMe();
+    const s = me.stay;
+    if (s) {
+      ticket = s;
+      const paid = s.status === 'paid';
+      box.innerHTML = `
+        <div class="payment-card"><span>${esc(s.parkingName)} · placa ${esc(s.plate)}</span>
+          <b>${paid ? 'Pagado' : money(s.quote.amount)}</b>
+          <small>Ingreso ${esc(time(s.enteredAt))}${paid ? ` · sal por ${esc(s.payment.exit)}` : ` · ${hoursLabel(s.quote.hours)} hasta ahora`}</small></div>
+        <button type="button" class="primary" data-action="${paid ? 'show-receipt' : 'go-pay'}">${paid ? 'Ver comprobante' : 'Pagar ahora'} <span>→</span></button>`;
+    } else if (me.plates.length) {
+      box.innerHTML = `
+        <p class="muted">No tienes una estadía activa. En el campus, la cámara de la entrada lee tu placa; aquí puedes simularlo.</p>
+        <label class="stack">Placa<select id="enter-plate">${me.plates.map((p) => `<option>${esc(p.plate)}</option>`).join('')}</select></label>
+        <button type="button" class="primary" data-action="enter-sim">Simular ingreso por placa <span>→</span></button>`;
+    } else {
+      box.innerHTML = `
+        <p class="muted">Aún no tienes placas validadas. Regístrala para que el campus te reconozca al entrar.</p>
+        <button type="button" class="primary" data-go="plates">Registrar mi placa <span>→</span></button>`;
+    }
+  } catch (e) { toast(e.message); }
+}
+
+async function enterSim() {
+  await api('/me/enter', { method: 'POST', body: { plate: $('enter-plate').value } });
+  toast('Ingreso registrado.');
+  await loadStay();
+}
+
+async function loadPlates() {
+  try {
+    await loadMe();
+    $('plates-list').innerHTML = me.plates.length
+      ? me.plates.map((p) => `<div class="payment-card"><span>Placa</span><b>${esc(p.plate)}</b><small>Validada el ${esc(dateLabel(p.verifiedAt))}</small></div>`).join('')
+      : '<p class="muted">Aún no tienes placas validadas.</p>';
+    $('delete-plates-btn').hidden = !me.plates.length;
+  } catch (e) { toast(e.message); }
+}
+
+let delSel = new Set();
+async function renderPlatesDelete() {
+  delSel = new Set();
+  $('plates-confirm').disabled = true;
+  try { await loadMe(); } catch (e) { return toast(e.message); }
+  $('plates-delete-list').innerHTML = me.plates.length
+    ? me.plates.map((p) => `<button type="button" class="payment-card plate-pick" role="checkbox" aria-checked="false" data-action="toggle-plate" data-plate="${esc(p.plate)}"><span>Placa</span><b>${esc(p.plate)}</b><small>Validada el ${esc(dateLabel(p.verifiedAt))}</small><i class="tick" aria-hidden="true">✓</i></button>`).join('')
+    : '<p class="muted">No tienes placas para eliminar.</p>';
+}
+function closeModal() {
+  $('confirm-modal').hidden = true;
+  $('plates-confirm')?.focus();
+}
+document.addEventListener('click', (e) => { if (e.target.id === 'confirm-modal') closeModal(); });
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !$('confirm-modal').hidden) closeModal(); });
+
+async function sendPlateCode() {
+  const plate = $('plate-input').value.trim();
+  if (!plate) return toast('Ingresa la placa de tu vehículo.');
+  const res = await api('/me/plates', { method: 'POST', body: { plate } });
+  pendingPlate = plate;
+  $('plate-sent').textContent = `Enviamos un código a ${res.maskedEmail}.`
+    + (res.devCode ? ` (Modo desarrollo: ${res.devCode})` : '');
+  $('plate-step1').hidden = true;
+  $('plate-step2').hidden = false;
+}
+
+async function verifyPlate() {
+  const code = $('plate-code').value.trim();
+  if (!code) return toast('Ingresa el código que recibiste.');
+  await api('/me/plates/verify', { method: 'POST', body: { plate: pendingPlate, code } });
+  toast('¡Placa validada!');
+  $('plate-input').value = '';
+  $('plate-code').value = '';
+  $('plate-step2').hidden = true;
+  $('plate-step1').hidden = false;
+  pendingPlate = null;
+  await loadPlates();
+}
+
+async function loadParkings(silent = false) {
+  try {
+    parkingsData = await api('/parkings');
+    $('total-free').textContent = parkingsData.totalFree;
+    $('updated-at').textContent = `Actualizado a las ${time(parkingsData.updatedAt)}`;
+    renderParkings();
+  } catch (e) { if (!silent) toast(e.message); }
+}
+
+function renderParkings() {
+  if (!parkingsData) return;
+  const { sectors, parkings } = parkingsData;
+  const f = activeSector;
+  const all = [{ id: 'all', name: 'Todos', free: parkingsData.totalFree }, ...sectors];
+  $('sector-chips').innerHTML = all.map((s) =>
+    `<button type="button" class="chip" data-action="sector" data-sector="${esc(s.id)}" aria-pressed="${s.id === f}">${esc(s.name)} · ${s.free}</button>`).join('');
+  $('parking-map').innerHTML = campusSvg({ mode: 'parking', lots: parkings, filter: f });
+  $('wait-list').innerHTML = waitRows(parkings.filter((p) => f === 'all' || p.kind === f));
+  const shown = parkings.filter((p) => f === 'all' || p.kind === f);
+  const best = bestLot(shown);
+  $('parking-summary').innerHTML = `<div class="summary-card"><div><b>${shown.reduce((n, p) => n + p.free, 0)}</b><small>cupos libres</small></div><div><b>${money(RATE)}</b><small>por hora o fracción</small></div><div><b>${best ? waitLabel(best.wait) : '—'}</b><small>espera mínima</small></div></div><p class="muted summary-best">${best ? `Mejor opción ahora: <b>${esc(best.name)}</b> · ${best.free} cupos` : 'No hay cupos libres en este momento.'}</p>`;
+  $('gate-list').innerHTML = CAMPUS.gates.filter((g) => f === 'all' || g.kinds.includes(f)).map((g) =>
+    `<div class="list-row gate-row"><div><b>${esc(g.name)}</b><small>${esc(g.desc)}</small></div><span>${g.kinds.map((k) => KIND[k][0]).join(' ')}</span></div>`).join('');
+  $('parking-list').innerHTML = parkings.filter((p) => f === 'all' || p.kind === f).map((p) =>
+    `<div class="list-row gate-row"><div><b>${KIND[p.kind][0]} ${esc(p.name)}</b><small>Ingreso: ${esc(p.gates.join(' y '))} · Salida: ${esc(p.exit)}</small></div><span>${p.free} cupos</span></div>`).join('');
+}
+
+const RATE = 5000;
+const bestLot = (lots) => lots.filter((p) => p.free > 0).sort((a, b) => a.wait - b.wait || b.free - a.free)[0];
+function renderJourney(s) {
+  const cur = !s ? 0 : s.status === 'paid' ? 3 : 2;
+  const names = ['Consulta', 'Ingreso', 'Pago', 'Salida'];
+  const caption = !s ? 'Consulta cupos, espera y tarifa antes de salir de casa.'
+    : s.status === 'paid' ? (s.payment.exitValidUntil > Date.now() ? `Pago listo. Sal por ${esc(s.payment.exit)} antes de las ${esc(time(s.payment.exitValidUntil))}` : 'Tu tiempo de salida venció. Si sigues dentro, vuelve a pagar.')
+    : `Estás en ${esc(s.parkingName)}. Paga antes de salir para evitar filas.`;
+  $('journey').innerHTML = `<ol>${names.map((n, i) => `<li class="${i < cur ? 'done' : i === cur ? 'now' : ''}"><i>${i < cur ? '✓' : i + 1}</i>${n}</li>`).join('')}</ol><p>${caption}</p>`;
+}
+
+const waitClass = (m) => (m <= 3 ? 'ok' : m <= 10 ? 'low' : 'full');
+const waitLabel = (m) => (m === 0 ? 'Sin espera' : `~${m} min`);
+const waitRows = (lots) => lots.map((p) => `<div class="list-row gate-row wait-row"><div><b>${KIND[p.kind][0]} ${esc(p.name)}</b><small>${p.queue ? `${p.queue} ${p.queue === 1 ? 'vehículo' : 'vehículos'} en fila de ingreso` : 'Ingreso inmediato'}</small><progress class="wait-bar ${waitClass(p.wait)}" max="30" value="${Math.min(30, p.wait)}" aria-label="Tiempo de espera"></progress></div><span class="wait-pill ${waitClass(p.wait)}">${waitLabel(p.wait)}</span></div>`).join('');
+
+let specialData = null;
+let activeSpecial = 'all';
+
+async function loadSpecial(silent = false) {
+  try {
+    specialData = await api('/special');
+    $('special-updated').textContent = `Actualizado a las ${time(specialData.updatedAt)}`;
+    renderSpecial();
+  } catch (e) { if (silent !== true) toast(e.message); }
+}
+
+function renderSpecial() {
+  if (!specialData) return;
+  const { sectors, lots } = specialData;
+  const f = activeSpecial;
+  const all = [{ id: 'all', name: 'Todos', free: specialData.totalFree }, ...sectors];
+  $('special-chips').innerHTML = all.map((x) =>
+    `<button type="button" class="chip" data-action="special-sector" data-sector="${esc(x.id)}" aria-pressed="${x.id === f}">${esc(x.name)} · ${x.free}</button>`).join('');
+  $('special-map').innerHTML = campusSvg({ mode: 'special', lots, filter: f });
+  const shown = lots.filter((p) => f === 'all' || p.kind === f);
+  $('special-gate-list').innerHTML = CAMPUS.gates.map((g) => ({ g, zones: shown.filter((p) => p.gates.includes(g.name)) })).filter((r) => r.zones.length).map(({ g, zones }) =>
+    `<div class="list-row gate-row"><div><b>${esc(g.name)}</b><small>Acceso a: ${zones.map((z) => esc(z.name)).join(' · ')}</small></div><span>${[...new Set(zones.map((z) => KIND[z.kind][0]))].join(' ')}</span></div>`).join('');
+  $('special-list').innerHTML = shown.map((p) =>
+    `<div class="list-row gate-row"><div><b>${KIND[p.kind][0]} ${esc(p.name)}</b><small>Ingreso: ${esc(p.gates.join(' y '))} · Salida: ${esc(p.exit)}</small></div><span>${p.free} ${p.kind === 'charge' ? 'estaciones' : 'cupos'}</span></div>`).join('');
+  $('special-wait-list').innerHTML = waitRows(shown);
+}
+
+async function loadPayments() {
+  try {
+    const { payments } = await api('/me/payments');
+    $('payments-list').innerHTML = payments.length
+      ? payments.map((p) => `<div class="payment-card"><span>${esc(dateLabel(p.paidAt))} · ${esc(p.parkingName)}</span><b>${money(p.amount)}</b><small>${hoursLabel(p.hours)} · Pagado con ${esc(p.method)}</small></div>`).join('')
+      : '<p class="muted">Aún no tienes pagos registrados.</p>';
+  } catch (e) { toast(e.message); }
+}
+
+const actions = {
+  back: goBack,
+  home,
+  'role-eafitense': () => chooseRole('eafitense'),
+  'role-visitante': () => chooseRole('visitante'),
+  'toggle-password': togglePassword,
+  'sign-in': signIn,
+  'get-visitor-ticket': getVisitorTicket,
+  'go-pay': goPay,
+  'pay-pse': () => showScreen('pse'),
+  'pse-continue': pseContinue,
+  'pse-authorize': pseAuthorize,
+  'pse-cancel': () => { toast('Pago cancelado. Puedes intentarlo de nuevo.'); goBack(); },
+  'pse-pick': (el) => { const a = linked[+el.dataset.i]; $('pse-bank-sel').value = a.bank; $('pse-acct').value = a.acct; },
+  unlink: (el) => { linked.splice(+el.dataset.i, 1); renderLinked(); },
+  'pay-totem': () => showScreen('pay-totem'),
+  'confirm-totem': () => payWith('Tótem'),
+  print: () => window.print(),
+  sector: (el) => { activeSector = el.dataset.sector; renderParkings(); },
+  'send-plate-code': sendPlateCode,
+  'verify-plate': verifyPlate,
+  'enter-sim': enterSim,
+  route: (el) => { activeTotem = +el.dataset.i; renderStaticMaps(); window.scrollTo({ top: 0, behavior: 'smooth' }); },
+  'special-sector': (el) => { activeSpecial = el.dataset.sector; renderSpecial(); },
+  'pay-carnet-open': () => showScreen('pay-carnet'),
+  'pay-nocarnet-open': () => showScreen('pay-nocarnet'),
+  'carnet-pay': carnetPay,
+  'pay-alt': () => (role === 'eafitense' ? goPay() : ticket ? showScreen('pse') : toast('Primero necesitas un ticket de ingreso.')),
+  'pay-home': () => { historyStack = [homeId(), 'pay']; showScreen('pay', false); },
+  'show-receipt': () => {
+    if (ticket?.status !== 'paid') return toast('El comprobante se activa cuando realices un pago exitoso.');
+    showScreen('receipt');
+  },
+  'toggle-plate': (el) => {
+    const k = el.dataset.plate;
+    const on = !delSel.has(k);
+    if (on) delSel.add(k); else delSel.delete(k);
+    el.classList.toggle('sel', on);
+    el.setAttribute('aria-checked', String(on));
+    $('plates-confirm').disabled = delSel.size === 0;
+  },
+  'plates-confirm': () => {
+    if (!delSel.size) return;
+    const list = [...delSel];
+    $('modal-title').textContent = list.length === 1 ? '¿Eliminar esta placa?' : '¿Eliminar estas placas?';
+    $('modal-text').textContent = `¿Realmente quieres eliminar ${list.length === 1 ? 'la placa' : 'las placas'} ${list.join(', ')} de tu cuenta? Esta acción no se puede deshacer.`;
+    $('confirm-modal').hidden = false;
+    $('modal-cancel').focus();
+  },
+  'modal-cancel': closeModal,
+  'plates-delete': async () => {
+    const list = [...delSel];
+    await api('/me/plates/delete', { method: 'POST', body: { plates: list } });
+    delSel = new Set();
+    closeModal();
+    toast(list.length === 1 ? 'Placa eliminada.' : 'Placas eliminadas.');
+    goBack();
+  },
+  'go-recharge': () => showScreen('recharge'),
+  'recharge-pick': (el) => { rechargeAmount = +el.dataset.a; return renderRecharge(); },
+  'recharge-confirm': async () => { await api('/me/carnet/recharge', { method: 'POST', body: { amount: rechargeAmount } }); toast(`Carnet recargado: ${money(rechargeAmount)}`); goBack(); },
+  logout,
+};
+
+document.addEventListener('click', async (e) => {
+  const el = e.target.closest('[data-go], [data-action]');
+  if (!el) return;
+  if (el.dataset.go) return showScreen(el.dataset.go);
+  el.disabled = true;
+  try { await actions[el.dataset.action]?.(el); }
+  catch (err) { toast(err.message); }
+  finally { el.disabled = false; }
+});
+
+document.addEventListener('input', (e) => {
+  if (e.target.matches('#plate-input')) e.target.value = e.target.value.toUpperCase().replace(/[^A-Z0-9]/g, '');
+  if (e.target.matches('#plate-code')) e.target.value = e.target.value.replace(/\D/g, '');
+});
+
+setInterval(() => {
+  const id = document.querySelector('.screen.active')?.id;
+  if (document.hidden) return;
+  if (id === 'parking' || id === 'eafit-home') loadParkings(true);
+  if (id === 'special') loadSpecial(true);
+}, 15_000);
+
+let toastTimer;
+function toast(message) {
+  const el = $('toast');
+  el.textContent = message;
+  el.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove('show'), 3200);
+}
+
+// ---------- PSE (demostración) y cuentas vinculadas ----------
+let linked = [];
+let pse = {};
+const pseCard = () => { const q = ticket.quote; return `<div class="payment-card"><span>${esc(ticket.parkingName)}</span><b>${money(q.amount)}</b><small>${hoursLabel(q.hours)} · ${money(q.ratePerHour)} por hora</small></div>`; };
+
+function renderPse() {
+  if (!ticket?.quote) return;
+  $('pse-summary').innerHTML = pseCard();
+  $('pse-link-wrap').hidden = role !== 'eafitense';
+  $('pse-linked').hidden = !linked.length;
+  $('pse-linked-list').innerHTML = linked.map((a, i) => `<button type="button" class="chip" data-action="pse-pick" data-i="${i}">${esc(a.bank)} · ${esc(a.acct)}</button>`).join('');
+}
+
+function pseContinue() {
+  const bank = $('pse-bank-sel').value;
+  if (!bank) return toast('Selecciona tu banco.');
+  if ($('pse-doc').value.trim().length < 5) return toast('Ingresa tu número de documento.');
+  if (!/^\S+@\S+\.\S+$/.test($('pse-mail').value.trim())) return toast('Ingresa un correo válido.');
+  pse = { bank, acct: $('pse-acct').value, link: !$('pse-link-wrap').hidden && $('pse-link').checked };
+  showScreen('pse-bank');
+}
+
+function renderPseBank() {
+  if (!ticket?.quote) return;
+  $('pse-bank-name').textContent = pse.bank;
+  $('pse-bank-summary').innerHTML = pseCard();
+}
+
+async function pseAuthorize() {
+  toast('Procesando pago con PSE…');
+  await new Promise((r) => setTimeout(r, 900));
+  if (pse.link && !linked.some((a) => a.bank === pse.bank && a.acct === pse.acct)) {
+    linked.push({ bank: pse.bank, acct: pse.acct });
+    toast('Pago aprobado. Cuenta vinculada.');
+  }
+  await payWith('PSE', pse.bank);
+}
+
+function renderLinked() {
+  $('linked-list').innerHTML = linked.length
+    ? linked.map((a, i) => `<div class="payment-card"><span>Cuenta ${esc(a.acct)}</span><b>${esc(a.bank)}</b><small><button type="button" class="chip" data-action="unlink" data-i="${i}">Desvincular</button></small></div>`).join('')
+    : '<p class="muted">Aún no has vinculado una cuenta. Puedes hacerlo al pagar con PSE.</p>';
+}
+
+// ---------- Carnet, notificaciones, ajustes y perfil ----------
+const CARNET_AMOUNTS = [10000, 20000, 50000, 100000];
+let rechargeAmount = 20000;
+
+async function loadHomeNotice() {
+  const box = $('home-notice');
+  try { await loadMe(); } catch { return; }
+  const s = me.stay;
+  renderJourney(s);
+  box.hidden = !(s && s.status === 'inside');
+  if (!box.hidden) box.innerHTML = `<span>🔔</span><p><b>Recuerda pagar el parqueadero</b> antes de salir. Llevas ${hoursLabel(s.quote.hours)} en ${esc(s.parkingName)}: ${money(s.quote.amount)} por pagar.<button type="button" data-action="go-pay">Pagar ahora →</button></p>`;
+}
+
+async function renderRecharge() {
+  try { await loadMe(); } catch (e) { return toast(e.message); }
+  $('recharge-balance').innerHTML = `<div class="payment-card"><span>Carnet · saldo actual</span><b>${money(me.carnet.balance)}</b></div>`;
+  $('recharge-chips').innerHTML = CARNET_AMOUNTS.map((a) => `<button type="button" class="chip" data-action="recharge-pick" data-a="${a}" aria-pressed="${a === rechargeAmount}">${money(a)}</button>`).join('');
+}
+
+async function renderSettings() {
+  const logged = !!session.token;
+  $('account-links').hidden = !logged;
+  const box = $('profile-banner');
+  if (!logged) { box.innerHTML = ''; return; }
+  try { await Promise.all([loadMe(), loadParkings(true)]); } catch (e) { return toast(e.message); }
+  const u = me.user;
+  box.innerHTML = `<div class="profile-banner"><div class="who"><span class="avatar">${esc(u.name[0])}</span><div><b>${esc(u.name)}</b><small>${esc(u.email)}</small></div></div><div class="banner-foot"><span class="status-dot"></span> Parqueaderos activos · ${parkingsData ? parkingsData.totalFree : '—'} cupos libres</div></div>`;
+}
+
+async function renderProfile() {
+  try { await loadMe(); } catch (e) { return toast(e.message); }
+  const u = me.user;
+  $('profile-info').innerHTML = `
+    <div class="payment-card"><span>Nombre</span><b>${esc(u.name)}</b></div>
+    <div class="payment-card"><span>Correo institucional</span><b class="small">${esc(u.email)}</b></div>
+    <div class="payment-card"><span>Placas validadas</span><b class="small">${me.plates.map((p) => esc(p.plate)).join(' · ') || 'Sin placas'}</b><small><button type="button" class="chip" data-go="plates">Administrar placas</button></small></div>
+    <div class="payment-card"><span>Carnet</span><b>${money(me.carnet.balance)}</b><small><button type="button" class="chip" data-go="recharge">Recargar carnet</button></small></div>`;
+}
+
+async function logout() {
+  try { await api('/auth/logout', { method: 'POST' }); } catch {}
+  session.token = null; me = null; ticket = null; role = null;
+  historyStack = ['welcome'];
+  showScreen('welcome', false);
+}
+
+function renderStaticMaps() {
+  document.querySelectorAll('[data-map="totems"]').forEach((el) => { el.innerHTML = campusSvg({ mode: 'totems' }); });
+  const rows = CAMPUS.totems.map((t, i) => ({ t, i, ...routeInfo(i) })).sort((a, b) => a.m - b.m);
+  const firstOk = rows.find((r) => TOTEM_STATUS[r.i].s !== 'down');
+  const html = rows.map((r) => {
+    const st = totemState(r.i), down = st.cls === 'down';
+    return `<div class="list-row gate-row${r.i === activeTotem ? ' active-row' : ''}"><div><b>${esc(r.t.name)}${r === firstOk ? ' · el más cercano' : ''}</b><small>${r.m} m desde tu ubicación · ${r.min} min a pie</small><small class="tstatus ${st.cls}">● ${st.label}</small></div><button type="button" data-action="route" data-i="${r.i}"${down ? ' disabled' : ''}>${down ? 'No disponible' : r.i === activeTotem ? 'Ruta activa' : 'Ver ruta →'}</button></div>`;
+  }).join('');
+  ['totem-list', 'totem-list-pay'].forEach((id) => { const el = $(id); if (el) el.innerHTML = html; });
+  const loc = $('user-location');
+  if (loc) {
+    const { g, d } = nearestGate();
+    const street = g.desc.split(' · ')[1] || '';
+    loc.innerHTML = `<div class="payment-card loc-card"><span>📍 Tu ubicación actual</span><b>Cerca de la ${esc(g.name)}</b><small>A unos ${Math.max(5, Math.round(d / 5) * 5)} m de la portería${street ? ` · ${esc(street)}` : ''}. Tótem disponible más cercano: ${esc(firstOk.t.name.replace('Tótem · ', ''))}, a ${firstOk.m} m (${firstOk.min} min a pie).</small></div>`;
+  }
+}
+renderStaticMaps();
+
+</script>
+  </body>
+</html>
